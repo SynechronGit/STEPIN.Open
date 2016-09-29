@@ -13,6 +13,7 @@ namespace STEPIN.Entities
             Steps = new List<ProjectStep>();
         }
 
+        public Guid _id { get; set; }
         public string ProjectID { get; set; }
 
         public string Name { get; set; }
