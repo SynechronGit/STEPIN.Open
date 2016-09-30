@@ -12,6 +12,8 @@ namespace STEPIN.Entities
         {
             Steps = new List<FunctionStep>();
         }
+        public Guid _id { get; set; }
+
         public string Name { get; set; }
       
         public List<FunctionStep> Steps { get; set; }

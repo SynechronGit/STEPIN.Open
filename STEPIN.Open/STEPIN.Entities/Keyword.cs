@@ -9,7 +9,7 @@ namespace STEPIN.Entities
 {
     public class Keyword
     {
-        
+        public Guid _id { get; set; }
         public string Name { get; set; }
         public string KeywordType { get; set; }
         public string Location { get; set; }

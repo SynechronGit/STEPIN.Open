@@ -9,6 +9,7 @@ namespace STEPIN.Entities
 {
     public class FunctionStep
     {
+        public Guid _id { get; set; }
 
         public string Function { get; set; }
 

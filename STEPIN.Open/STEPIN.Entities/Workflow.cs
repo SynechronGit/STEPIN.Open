@@ -8,11 +8,12 @@ namespace STEPIN.Entities
 {
     public class Workflow
     {
-
         public Workflow()
         {
             Steps = new List<WorkflowStep>();
         }
+
+        public Guid _id { get; set; }
 
         public string WorkFlowID { get; set; }
 
