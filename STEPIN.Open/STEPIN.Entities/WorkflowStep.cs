@@ -18,7 +18,7 @@ namespace STEPIN.Entities
 
         public bool ShouldExecute { get; set; }
 
-        public string TestCaseID { get; set; }
+        public string WorkflowActivityID { get; set; }
 
         public string TestCaseSource { get; set; }
 
