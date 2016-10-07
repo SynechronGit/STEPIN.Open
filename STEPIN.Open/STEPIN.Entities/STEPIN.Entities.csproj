@@ -55,6 +55,7 @@
     <Compile Include="Customer.cs" />
     <Compile Include="EngineEventArgs.cs" />
     <Compile Include="EngineStartInfo.cs" />
+    <Compile Include="Environment.cs" />
     <Compile Include="ExecutionProgressArgs.cs" />
     <Compile Include="ExecutionStatus.cs" />
     <Compile Include="Function.cs" />
