@@ -9,7 +9,11 @@ namespace STEPIN.Entities
     public class ObjectLookup
     {
         public Guid _id { get; set; }
+
+        public string Page { get; set; }
+
         public string ControlType { get; set; }
+
         public string ObjectName { get; set; }
 
         public string Tag { get; set; }
