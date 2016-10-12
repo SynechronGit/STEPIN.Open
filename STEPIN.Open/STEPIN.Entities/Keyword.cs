@@ -14,7 +14,8 @@ namespace STEPIN.Entities
         public string KeywordType { get; set; }
         public string Location { get; set; }
 
-        public NameValueCollection KeywordParameters { get; set; }
+        //TODO: Purpose of the field not knowmn...Pradeep
+        //public NameValueCollection KeywordParameters { get; set; }
 
     }
 }
