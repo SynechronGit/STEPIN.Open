@@ -8,6 +8,8 @@ namespace STEPIN.Entities
 {
     public class DataSourceConfiguration
     {
+        public Guid _id { get; set; }
+
         public string DataSetName { get; set; }
 
         public string TableName { get; set; }
