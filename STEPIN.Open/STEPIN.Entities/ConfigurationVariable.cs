@@ -10,6 +10,8 @@ namespace STEPIN.Entities
     {
         public Guid _id { get; set; }
 
+        public string WorkSpaceID { get; set; }
+
         public string Name { get; set; }
         public string Project { get; set; }
 

@@ -16,6 +16,8 @@ namespace STEPIN.Entities
 
         public string WorkflowActivityID { get; set; }
 
+        public string WorkSpaceID { get; set; }
+
         public string Target { get; set; }
 
         public string Description { get; set; }
