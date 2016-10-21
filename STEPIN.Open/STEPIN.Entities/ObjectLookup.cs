@@ -10,8 +10,6 @@ namespace STEPIN.Entities
     {
         public Guid _id { get; set; }
 
-        public string Page { get; set; }
-
         public string ControlType { get; set; }
 
         public string ObjectName { get; set; }
