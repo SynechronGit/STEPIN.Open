@@ -28,6 +28,8 @@ namespace STEPIN.Entities
 
         public string SortBy { get; set; }
 
+        public string WorkSpaceID { get; set; }
+
     }
 
 }
