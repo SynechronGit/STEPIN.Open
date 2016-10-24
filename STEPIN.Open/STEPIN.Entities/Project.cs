@@ -33,9 +33,9 @@ namespace STEPIN.Entities
 
         public string Engine { get; set; }
 
-        public string TestType { get; set; }
+        public string LineOfBusiness { get; set; }
 
-        public string TestDataSet { get; set; }
+        public string DataSet { get; set; }
 
         public List<ProjectStep> Steps { get; set; }
 
