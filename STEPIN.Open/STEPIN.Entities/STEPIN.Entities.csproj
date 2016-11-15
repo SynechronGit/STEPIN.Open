@@ -70,6 +70,7 @@
     <Compile Include="Session.cs" />
     <Compile Include="WorkflowActivity.cs" />
     <Compile Include="ExecutionResult.cs" />
+    <Compile Include="WorkflowDefinition.cs" />
     <Compile Include="Workspace.cs" />
     <Compile Include="WorkflowActivityStep.cs" />
     <Compile Include="DataContext.cs" />
