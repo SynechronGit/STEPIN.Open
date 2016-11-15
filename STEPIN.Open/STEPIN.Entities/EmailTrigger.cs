@@ -40,5 +40,10 @@ namespace STEPIN.Entities
         /// Skip SSL Validation
         /// </summary>
         public bool SkipSSLValidation { get; set; }
+
+        /// <summary>
+        /// Project ID
+        /// </summary>
+        public string ProjectID { get; set; }
     }
 }

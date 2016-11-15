@@ -15,5 +15,10 @@ namespace STEPIN.Entities
         /// Trigger file filter
         /// </summary>
         public string Filter { get; set; }
+
+        /// <summary>
+        /// Project ID
+        /// </summary>
+        public string ProjectID { get; set; }
     }
 }
