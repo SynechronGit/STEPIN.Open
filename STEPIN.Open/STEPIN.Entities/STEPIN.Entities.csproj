@@ -53,11 +53,13 @@
     <Compile Include="CheckpointMarker.cs" />
     <Compile Include="ConfigurationVariable.cs" />
     <Compile Include="Customer.cs" />
+    <Compile Include="EmailTrigger.cs" />
     <Compile Include="EngineEventArgs.cs" />
     <Compile Include="EngineStartInfo.cs" />
     <Compile Include="Environment.cs" />
     <Compile Include="ExecutionProgressArgs.cs" />
     <Compile Include="ExecutionStatus.cs" />
+    <Compile Include="FileTrigger.cs" />
     <Compile Include="Function.cs" />
     <Compile Include="FunctionStep.cs" />
     <Compile Include="Keyword.cs" />
