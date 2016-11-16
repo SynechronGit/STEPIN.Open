@@ -25,6 +25,8 @@ namespace STEPIN.Entities
 
         public List<WorkflowStep> Steps { get; set; }
 
+        public List<WorkflowDefinition> Definitions { get; set; }
+
         public bool Status { get; set; }
 
     }
