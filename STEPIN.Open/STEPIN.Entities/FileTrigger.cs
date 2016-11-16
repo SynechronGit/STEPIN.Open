@@ -20,5 +20,20 @@ namespace STEPIN.Entities
         /// Project ID
         /// </summary>
         public string ProjectID { get; set; }
+
+        /// <summary>
+        /// Is Trigger Active
+        /// </summary>
+        public bool IsActive { get; set; }
+
+        /// <summary>
+        /// Trigger Expiry Date
+        /// </summary>
+        public DateTime ExpiryDate { get; set; }
+
+        /// <summary>
+        /// Trigger Status
+        /// </summary>
+        public Status Status { get; set; }
     }
 }
