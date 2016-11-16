@@ -72,6 +72,9 @@
     <Compile Include="Session.cs" />
     <Compile Include="WorkflowActivity.cs" />
     <Compile Include="ExecutionResult.cs" />
+    <Compile Include="WorkflowLinkData.cs" />
+    <Compile Include="WorkflowActivityNode.cs" />
+    <Compile Include="WorkflowRunningInstance.cs" />
     <Compile Include="WorkflowDefinition.cs" />
     <Compile Include="Workspace.cs" />
     <Compile Include="WorkflowActivityStep.cs" />
