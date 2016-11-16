@@ -11,6 +11,7 @@ namespace STEPIN.Entities
         public Workflow()
         {
             Steps = new List<WorkflowStep>();
+            Definitions = new List<WorkflowDefinition>();
         }
 
         public Guid _id { get; set; }
