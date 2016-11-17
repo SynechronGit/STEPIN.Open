@@ -9,11 +9,12 @@ namespace STEPIN.Entities
     public class WorkflowLinkData
     {
         public Guid _id { get; set; }
-        public string To { get; set; }
-        public string From { get; set; }
-        public string FromPort { get; set; }
-        public string ToPort { get; set; }
-        public string Points { get; set; }
+        public string from { get; set; }
+        public string to { get; set; }
+        public string fromport { get; set; }
+        public string toport { get; set; }
+        public bool visible { get; set; }
+        public float[] points { get; set; }
 
     }
 }
