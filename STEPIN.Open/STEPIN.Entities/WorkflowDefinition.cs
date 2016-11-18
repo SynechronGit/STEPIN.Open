@@ -13,9 +13,9 @@ namespace STEPIN.Entities
     {
         public int _id { get; set; }
         public int WorkflowId { get; set; }
-        public string Definition { get; set; }
-        public DateTime DateCreated { get; set; }
-        public DateTime DateUpdated { get; set; }
+        public object Definition { get; set; }
+        public DateTime? DateCreated { get; set; }
+        public DateTime? DateUpdated { get; set; }
         //stores the workflow definition version name
         public string Version { get; set; }
     }
