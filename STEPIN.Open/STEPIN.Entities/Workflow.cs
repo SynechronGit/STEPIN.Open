@@ -11,8 +11,8 @@ namespace STEPIN.Entities
         public Workflow()
         {
             Steps = new List<WorkflowStep>();
-            Nodes = new List<WorkflowActivityNode>();
-            LinkDataArray = new List<WorkflowLinkData>();
+            Activities = new List<WorkflowActivityNode>();
+            ActivityLinkData = new List<WorkflowLinkData>();
             Definitions = new List<WorkflowDefinition>();
         }
 
@@ -28,9 +28,9 @@ namespace STEPIN.Entities
 
         public List<WorkflowStep> Steps { get; set; }
 
-        public List<WorkflowActivityNode> Nodes { get; set; }
+        public List<WorkflowActivityNode> Activities { get; set; }
 
-        public List<WorkflowLinkData> LinkDataArray { get; set; }
+        public List<WorkflowLinkData> ActivityLinkData { get; set; }
 
         public List<WorkflowDefinition> Definitions { get; set; }
 
