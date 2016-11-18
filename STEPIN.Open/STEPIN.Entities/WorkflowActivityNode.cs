@@ -15,6 +15,7 @@ namespace STEPIN.Entities
         public string loc { get; set; }
         public Setting settings { get; set; }
         public ActivityState ExecutationState { get; set; }
+        public string category { get; set; }
     }
 
     public class TestToolName
