@@ -11,9 +11,9 @@ namespace STEPIN.Entities
     /// </summary>
     public class WorkflowDefinition
     {
-        public int _id { get; set; }
+        public Guid _id { get; set; }
         public int WorkflowId { get; set; }
-        public object Definition { get; set; }
+        public dynamic Definition { get; set; }
         public DateTime? DateCreated { get; set; }
         public DateTime? DateUpdated { get; set; }
         //stores the workflow definition version name
