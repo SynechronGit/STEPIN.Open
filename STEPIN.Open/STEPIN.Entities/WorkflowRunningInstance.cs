@@ -11,7 +11,9 @@ namespace STEPIN.Entities
         public WorkflowRunningInstance()
         {
             WFActivityState = new Dictionary<string, ActivityState>();
+            Context = new Dictionary<string, WorkflowContext>();
         }
+
         public int Id { get; set; }
         public int WorkflowId { get; set; }
         public WorkflowState WorkflowExecutionState { get; set; }
@@ -19,9 +21,15 @@ namespace STEPIN.Entities
 
         //Property of current activity in workflow
         public string CurrentWorflowActivityNodeKey { get; set; }
-        public dynamic WfInputProperty { get; set; }
-        public dynamic WfActivityOutputProperty { get; set; }
+        public Dictionary<string, WorkflowContext> Context { get; set; }
 
+    }
+
+    public class WorkflowContext
+    {
+        public string Key { get; set; }
+        public string Value { get; set; }
+        public string Datatype { get; set; }
     }
 
     public enum WorkflowState
