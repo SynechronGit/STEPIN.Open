@@ -14,7 +14,7 @@ namespace STEPIN.Entities
             Context = new Dictionary<string, WorkflowContext>();
         }
 
-        public int Id { get; set; }
+        public Guid _id { get; set; }
         public int WorkflowId { get; set; }
         public WorkflowState WorkflowExecutionState { get; set; }
         public Dictionary<string, ActivityState> WFActivityState { get; set; }
