@@ -50,6 +50,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionScript.cs" />
+    <Compile Include="ActionScriptVersion.cs" />
     <Compile Include="CheckpointMarker.cs" />
     <Compile Include="ConfigurationVariable.cs" />
     <Compile Include="Customer.cs" />
@@ -63,13 +65,19 @@
     <Compile Include="Function.cs" />
     <Compile Include="FunctionStep.cs" />
     <Compile Include="Keyword.cs" />
+    <Compile Include="MaintenanceWindow.cs" />
     <Compile Include="MapAttribute.cs" />
     <Compile Include="ObjectLookup.cs" />
     <Compile Include="Page.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResultsConstants.cs" />
     <Compile Include="Screenshot.cs" />
+    <Compile Include="ScriptTargetApplication.cs" />
+    <Compile Include="ServiceAgent.cs" />
     <Compile Include="Session.cs" />
+    <Compile Include="TargetApplication.cs" />
+    <Compile Include="TargetApplicationAgent.cs" />
+    <Compile Include="TargetApplicationVersion.cs" />
     <Compile Include="WorkflowActivity.cs" />
     <Compile Include="ExecutionResult.cs" />
     <Compile Include="WorkflowLinkData.cs" />
