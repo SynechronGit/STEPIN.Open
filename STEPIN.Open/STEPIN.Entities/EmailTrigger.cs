@@ -52,9 +52,14 @@ namespace STEPIN.Entities
         public bool IsActive { get; set; }
 
         /// <summary>
+        /// Trigger Start Date
+        /// </summary>
+        public DateTime StartDateTime { get; set; }
+
+        /// <summary>
         /// Trigger Expiry Date
         /// </summary>
-        public DateTime ExpiryDate { get; set; }
+        public DateTime EndDateTime { get; set; }
 
         /// <summary>
         /// Trigger status
