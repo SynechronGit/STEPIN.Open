@@ -34,7 +34,7 @@ namespace STEPIN.Entities
         /// <summary>
         /// Trigger Expiry Date
         /// </summary>
-        public DateTime EndDateTime { get; set; }
+        public DateTime ExpiryDate { get; set; }
 
         /// <summary>
         /// Trigger Status
