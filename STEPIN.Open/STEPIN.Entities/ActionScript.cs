@@ -15,5 +15,7 @@ namespace STEPIN.Entities
         public string ScriptDescription { get; set; }
         
         public int ScriptEngine { get; set; } //TC or Automise enum
+
+        public Guid WorkSpaceId { get; set; }
     }
 }

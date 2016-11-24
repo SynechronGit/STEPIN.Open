@@ -14,5 +14,9 @@ namespace STEPIN.Entities
         public DateTime StartDateTime { get; set; }
         public DateTime EndDateTime { get; set; }
         public bool IsActive { get; set; }
+
+        public string AgentName { get; set; }
+
+        public string Environment { get; set; }
     }
 }
