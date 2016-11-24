@@ -78,6 +78,7 @@
     <Compile Include="TargetApplication.cs" />
     <Compile Include="TargetApplicationAgent.cs" />
     <Compile Include="TargetApplicationVersion.cs" />
+    <Compile Include="TimeTrigger.cs" />
     <Compile Include="WorkflowActivity.cs" />
     <Compile Include="ExecutionResult.cs" />
     <Compile Include="WorkflowLinkData.cs" />

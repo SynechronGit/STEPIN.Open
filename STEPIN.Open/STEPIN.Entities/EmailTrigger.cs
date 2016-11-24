@@ -7,6 +7,11 @@ namespace STEPIN.Entities
         public Guid _id { get; set; }
 
         /// <summary>
+        /// WorkspaceID
+        /// </summary>
+        public Guid WorkspaceID { get; set; }
+
+        /// <summary>
         /// Imap/Pop Incoming Server Name 
         /// </summary>
         public string Host { get; set; }
