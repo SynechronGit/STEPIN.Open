@@ -14,7 +14,7 @@ namespace STEPIN.Entities
 
         public string VersionLabel { get; set; }
         public DateTime ReleaseDateTime { get; set; }
-        public string Description { get; set; }
+        public string TargetAppDescription { get; set; }
 
     }
 }

@@ -10,10 +10,10 @@ namespace STEPIN.Entities
     {
         public Guid _id { get; set; }
 
-        public string ActionScriptName { get; set; }
+        public string ScriptName { get; set; }
 
-        public string ActionScriptDescription { get; set; }
+        public string ScriptDescription { get; set; }
         
-        public int ActionScriptEngine { get; set; } //TC or Automise
+        public int ScriptEngine { get; set; } //TC or Automise enum
     }
 }

@@ -10,8 +10,8 @@ namespace STEPIN.Entities
     {
         public Guid _id { get; set; }
 
-        public string ApplicationName { get; set; }
+        public string AppName { get; set; }
 
-        public string ApplicationDescription { get; set; }
+        public string AppDescription { get; set; }
     }
 }
