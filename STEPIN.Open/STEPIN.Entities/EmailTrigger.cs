@@ -72,10 +72,6 @@ namespace STEPIN.Entities
         public Status Status { get; set; }
     }
 
-    public enum Status
-    {
-        Draft,
-        Published
-    };
+ 
 
 }

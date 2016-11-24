@@ -9,47 +9,47 @@ namespace STEPIN.Entities
         /// <summary>
         /// Workspace ID
         /// </summary>
-        public Guid WorkspaceID { get; set; }
+        public Guid WorkspaceId { get; set; }
 
         /// <summary>
         /// Project ID
         /// </summary>
-        public string ProjectID { get; set; }
+        public string ProjectId { get; set; }
 
         /// <summary>
         /// Job Name
         /// </summary>
-        public string Name { get; set; }
+        public string TriggerName { get; set; }
 
         /// <summary>
         /// Job Recurrence
         /// </summary>
-        public JobRecurrence Recurrence { get; set; }
+        public int? Recurrence { get; set; }
 
         /// <summary>
         /// Job Starting Type
         /// </summary>
-        public JobStartOn StartingType { get; set; }
+        public int? StartingType { get; set; }
 
         /// <summary>
         /// Job Start On Date time
         /// </summary>
-        public DateTime StartJobOn { get; set; }
+        public DateTime? StartJobOn { get; set; }
 
         /// <summary>
         /// Job Recurrence Unit
         /// </summary>
-        public JobRecurrenceUnit RecurrenceUnit { get; set; }
+        public int? RecurrenceUnit { get; set; }
 
         /// <summary>
         /// Job recur at every Unit
         /// </summary>
-        public int JobRecurEveryUnit { get; set; }
+        public int? JobRecurEveryUnit { get; set; }
 
         /// <summary>
         /// Job Ending Type
         /// </summary>
-        public JobEndOn EndingType { get; set; }
+        public int? EndingType { get; set; }
 
         /// <summary>
         /// Job End on Specific Date time
@@ -68,43 +68,5 @@ namespace STEPIN.Entities
 
     }
 
-    /// <summary>
-    /// Job recurrence type
-    /// </summary>
-    public enum JobRecurrence
-    {
-        OneTimeJob,
-        RecurringJob
-    };
-
-    /// <summary>
-    /// Job start on type
-    /// </summary>
-    public enum JobStartOn
-    {
-        StartNow,
-        StartAtSpecificTime
-    };
-
-    /// <summary>
-    /// Job recurrence unit type
-    /// </summary>
-    public enum JobRecurrenceUnit
-    {
-        Minutes,
-        Hours,
-        Days,
-        Weeks,
-        Months
-    };
-
-    /// <summary>
-    /// Job end on Type
-    /// </summary>
-    public enum JobEndOn
-    {
-        EndOnSpecificTime,
-        EndAfterOccurrenceCount,
-        NoEndDate
-    };
+   
 }
