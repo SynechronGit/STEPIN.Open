@@ -59,12 +59,12 @@ namespace STEPIN.Entities
         /// <summary>
         /// Trigger Start Date
         /// </summary>
-        public DateTime StartDateTime { get; set; }
+        public DateTime? StartDateTime { get; set; }
 
         /// <summary>
         /// Trigger Expiry Date
         /// </summary>
-        public DateTime ExpiryDate { get; set; }
+        public DateTime? ExpiryDate { get; set; }
 
         /// <summary>
         /// Trigger status
