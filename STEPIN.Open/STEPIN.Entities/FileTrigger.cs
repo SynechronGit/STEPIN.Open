@@ -45,5 +45,10 @@ namespace STEPIN.Entities
         /// Trigger Status
         /// </summary>
         public Status Status { get; set; }
+
+        /// <summary>
+        /// Trigger Name
+        /// </summary>
+        public string TriggerName { get; set; }
     }
 }

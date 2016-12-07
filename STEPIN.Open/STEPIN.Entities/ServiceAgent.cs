@@ -12,5 +12,6 @@ namespace STEPIN.Entities
         public string AgentName { get; set; }
         public Guid EnvironmentId { get; set; }
         public bool IsActive { get; set; }
+        public string LicenseId { get; set; }
     }
 }

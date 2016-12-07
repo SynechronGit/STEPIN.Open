@@ -17,5 +17,7 @@ namespace STEPIN.Entities
         public string Description { get; set; }
 
         public List<ObjectLookup> ObjectLookups { get; set; }
+
+        public Guid TargetApplicationId { get; set; }
     }
 }

@@ -70,8 +70,11 @@ namespace STEPIN.Entities
         /// Trigger status
         /// </summary>
         public Status Status { get; set; }
-    }
 
- 
+        /// <summary>
+        /// Job Name
+        /// </summary>
+        public string TriggerName { get; set; }
+    }
 
 }
