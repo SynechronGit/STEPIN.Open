@@ -51,6 +51,8 @@ namespace STEPIN.Entities
         //To calculate total time taken by TestSuite to Execute
         public DateTime FinishedOn { get; set; }
 
+        public string Department { get; set; }
+
         public string BusinessOwner { get; set; }
 
         public string TechnicalOwner { get; set; }
