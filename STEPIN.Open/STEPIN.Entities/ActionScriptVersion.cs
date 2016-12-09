@@ -13,8 +13,8 @@ namespace STEPIN.Entities
         public string VersionLabel { get; set; }
         public string Description { get; set; }
         public string AzureBlobUrl { get; set; }
-        public DateTime StartOn { get; set; }
-        public DateTime EndOn { get; set; }
+        public DateTime? StartOn { get; set; }
+        public DateTime? EndOn { get; set; }
         public int Status { get; set; }//Draft/Published
 
         /// <summary>
