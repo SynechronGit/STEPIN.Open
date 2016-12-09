@@ -15,5 +15,11 @@ namespace STEPIN.Entities
         public string AzureBlobUrl { get; set; }
         public DateTime StartOn { get; set; }
         public DateTime EndOn { get; set; }
+        public int Status { get; set; }//Draft/Published
+
+        /// <summary>
+        /// Phyton script content
+        /// </summary>
+        public string ScriptContent { get; set; }
     }
 }
