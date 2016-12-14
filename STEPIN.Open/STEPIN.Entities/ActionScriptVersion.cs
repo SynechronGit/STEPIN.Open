@@ -18,8 +18,11 @@ namespace STEPIN.Entities
         public int Status { get; set; }//Draft/Published
 
         /// <summary>
-        /// Phyton script content
+        /// Python script content
         /// </summary>
-        public string ScriptContent { get; set; }
+        public string PythonScriptContent { get; set; }
+
+        public DateTime? DateCreated { get; set; }
+        public DateTime? DateUpdated { get; set; }
     }
 }
