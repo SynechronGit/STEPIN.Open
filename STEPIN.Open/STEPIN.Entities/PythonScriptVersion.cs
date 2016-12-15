@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class ActionScriptVersion
+    public class PythonScriptVersion
     {
         public Guid _id { get; set; }
         public Guid ActionScriptId { get; set; }
         public string VersionLabel { get; set; }
-        public string Description { get; set; }
-        public string AzureBlobUrl { get; set; }
-        public DateTime? StartOn { get; set; }
-        public DateTime? EndOn { get; set; }
-        public int Status { get; set; }//Draft/Published
-
+        public int Status { get; set; }
+        public string PythonScriptContent { get; set; }
+        public DateTime? DateCreated { get; set; }
+        public DateTime? DateUpdated { get; set; }
     }
 }
