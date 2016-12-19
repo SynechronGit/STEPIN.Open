@@ -9,12 +9,13 @@ namespace STEPIN.Entities
     public class WorkQueue
     {
         public Guid _id { get; set; }
-        public string WorkQueueName { get; set; }
-        public string Description { get; set; }
+        public string QueueName { get; set; }
+        public string QueueDescription { get; set; }
         public int DisplayOrder { get; set; }
-        public string ProcessOrder { get; set; }
-        public string ProcessCycle { get; set; }
-        public string SLA { get; set; }
+        public int ProcessOrder { get; set; }
+        public int ProcessCycle { get; set; }
+        public int SLA { get; set; }
+        public List<int> UserId { get; set; }
 
     }
 }
