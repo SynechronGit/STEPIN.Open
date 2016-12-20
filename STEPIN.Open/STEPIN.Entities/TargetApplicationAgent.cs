@@ -11,8 +11,8 @@ namespace STEPIN.Entities
         public Guid _id { get; set; }
         public Guid TargetApplicationId { get; set; }
         public Guid AgentId { get; set; }
-        public DateTime StartDateTime { get; set; }
-        public DateTime EndDateTime { get; set; }
+        public DateTime? StartDateTime { get; set; }
+        public DateTime? EndDateTime { get; set; }
         public bool IsActive { get; set; }
     }
 }
