@@ -13,8 +13,8 @@ namespace STEPIN.Entities
         public Guid TargetApplicationId { get; set; }
         public string MaintenanceWindowName { get; set; }
         public string MaintenanceWindowDescription { get; set; }
-        public DateTime MaintenanceStartDateTime { get; set; }
-        public DateTime MaintenanceEndDateTime { get; set; }
+        public DateTime? MaintenanceStartDateTime { get; set; }
+        public DateTime? MaintenanceEndDateTime { get; set; }
 
 
     }

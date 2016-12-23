@@ -13,7 +13,7 @@ namespace STEPIN.Entities
         public Guid TargetApplicationId { get; set; }
 
         public string VersionLabel { get; set; }
-        public DateTime ReleaseDateTime { get; set; }
+        public DateTime? ReleaseDateTime { get; set; }
         public string TargetAppDescription { get; set; }
 
     }
