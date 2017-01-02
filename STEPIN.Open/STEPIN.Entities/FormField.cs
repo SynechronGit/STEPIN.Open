@@ -10,7 +10,9 @@ namespace STEPIN.Entities
     {
         public Guid _id { get; set; }
 
-        public Guid _FormId { get; set; }
+        public Guid FormId { get; set; }
+
+        public Guid EntityAttributeId { get; set; }
 
         public string Tab { get; set; }
 
@@ -18,7 +20,7 @@ namespace STEPIN.Entities
 
         public int Ordinal { get; set; }
 
-        public string EntityTypeAttributeName { get; set; }
+        public string EntityAttributeName { get; set; }
 
         public string UIControlType { get; set; }
 
@@ -27,7 +29,6 @@ namespace STEPIN.Entities
         public bool IsReadOnly { get; set; }
 
         public string UserControlType { get; set; }
-
-        public int EntityTypeAttributeID { get; set; }
+        
     }
 }

@@ -10,7 +10,7 @@ namespace STEPIN.Entities
     {
         public Guid _id { get; set; }
 
-        public Guid _EntityTypeId { get; set; }
+        public Guid EntityId { get; set; }
 
         public string Name { get; set; }
 
@@ -34,8 +34,5 @@ namespace STEPIN.Entities
 
         public List<string> Sections { get; set; }
 
-        public List<FormField> Fields { get; set; }
-
-        public List<FormFieldValidation> Validations { get; set; }
     }
 }

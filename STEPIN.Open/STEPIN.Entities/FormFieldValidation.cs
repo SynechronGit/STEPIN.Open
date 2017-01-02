@@ -10,7 +10,7 @@ namespace STEPIN.Entities
     {
         public Guid _id { get; set; }
 
-        public Guid _FormId { get; set; }
+        public Guid FormId { get; set; }
 
         public string FieldsCSV { get; set; }
 
