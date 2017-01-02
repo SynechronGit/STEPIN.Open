@@ -51,4 +51,23 @@ namespace STEPIN.Entities
         Draft,
         Published
     };
+
+    public enum EntityBaseType {
+        Custom,
+        System,
+        Database
+    };
+
+    public enum EntityStatus {
+        Unknown,
+        Draft,
+        Published,
+        Retired
+    };
+
+    public enum EntityRelationType {
+        Unknown,
+        MasterDetail,
+        Lookup
+    };
 }
