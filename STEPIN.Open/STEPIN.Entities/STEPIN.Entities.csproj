@@ -65,7 +65,6 @@
     <Compile Include="EntityCondition.cs" />
     <Compile Include="EntityFilter.cs" />
     <Compile Include="EntityRelationship.cs" />
-    <Compile Include="EntityViewModel.cs" />
     <Compile Include="Environment.cs" />
     <Compile Include="ExecutionProgressArgs.cs" />
     <Compile Include="ExecutionStatus.cs" />
