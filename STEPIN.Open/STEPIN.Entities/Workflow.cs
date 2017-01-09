@@ -38,5 +38,8 @@ namespace STEPIN.Entities
 
         public bool Status { get; set; }
 
+        public string Expression { get; set; }
+
+
     }
 }
