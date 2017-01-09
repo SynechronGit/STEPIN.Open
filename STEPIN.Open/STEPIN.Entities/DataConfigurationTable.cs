@@ -21,5 +21,14 @@ namespace STEPIN.Entities
         public string DataSourceID { get; set; }
 
         public string EntityID { get; set; }
+
+        public bool IsPrimary { get; set; }
+
+        public string QueryOrSheet { get; set; }
+
+        public string Filter { get; set; }
+
+
+        public string SortBy { get; set; }
     }
 }
