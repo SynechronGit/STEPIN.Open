@@ -12,10 +12,13 @@ namespace STEPIN.Entities
 
         public string WorkSpaceID { get; set; }
 
+        public Guid EntityId { get; set; }
+
         public string Name { get; set; }
+
         public string Project { get; set; }
 
-        public bool IsOverride { get; set; }
+        public bool IsCollection { get; set; }
 
         public string VariableType { get; set; }
 
