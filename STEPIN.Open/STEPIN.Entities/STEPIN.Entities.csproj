@@ -63,6 +63,7 @@
     <Compile Include="EntityAttribute.cs" />
     <Compile Include="EntityCalculatedAttribute.cs" />
     <Compile Include="EntityCondition.cs" />
+    <Compile Include="EntityDefinition.cs" />
     <Compile Include="EntityFilter.cs" />
     <Compile Include="EntityRelationship.cs" />
     <Compile Include="Environment.cs" />
