@@ -31,5 +31,6 @@ namespace STEPIN.Entities
         public object ValueObject { get; set; }
 
         public string Description { get; set; }
+        public Guid DomainId { get; set; }
     }
 }
