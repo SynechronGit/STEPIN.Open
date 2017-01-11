@@ -71,7 +71,9 @@
     <Compile Include="ExecutionStatus.cs" />
     <Compile Include="FileTrigger.cs" />
     <Compile Include="Form.cs" />
+    <Compile Include="FormDefinition.cs" />
     <Compile Include="FormField.cs" />
+    <Compile Include="FormFieldDefinition.cs" />
     <Compile Include="FormFieldValidation.cs" />
     <Compile Include="Function.cs" />
     <Compile Include="FunctionStep.cs" />
