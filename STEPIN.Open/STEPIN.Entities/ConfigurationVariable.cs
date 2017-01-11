@@ -12,9 +12,9 @@ namespace STEPIN.Entities
 
         public string WorkSpaceID { get; set; }
 
-        public int WorkflowId { get; set; }
+        public Guid WorkflowId { get; set; }
 
-        public int WorkflowDefinitionId { get; set; }
+        public Guid WorkflowDefinitionId { get; set; }
 
         public Guid EntityId { get; set; }
 
