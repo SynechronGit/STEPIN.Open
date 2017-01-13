@@ -77,6 +77,7 @@
     <Compile Include="FormFieldValidation.cs" />
     <Compile Include="Function.cs" />
     <Compile Include="FunctionStep.cs" />
+    <Compile Include="IFTTTApplet.cs" />
     <Compile Include="Keyword.cs" />
     <Compile Include="MaintenanceWindow.cs" />
     <Compile Include="MapAttribute.cs" />

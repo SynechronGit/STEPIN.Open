@@ -70,4 +70,13 @@ namespace STEPIN.Entities
         MasterDetail,
         Lookup
     };
+
+    /// <summary>
+    /// Trigger Types
+    /// </summary>
+    public enum TriggerType {
+        FileTrigger,
+        EmailTrigger,
+        TimeTrigger
+    }
 }
