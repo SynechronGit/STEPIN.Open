@@ -12,7 +12,7 @@ namespace STEPIN.Entities {
         /// <summary>
         /// Applet Name
         /// </summary>
-        public string Name { get; set; }
+        public string AppletTitle { get; set; }
 
         /// <summary>
         /// Applet Description
@@ -42,6 +42,6 @@ namespace STEPIN.Entities {
         /// <summary>
         /// Turn Applet On/Off
         /// </summary>
-        public bool IsActive { get; set; }
+        public bool AppletOnOff { get; set; }
     }
 }
