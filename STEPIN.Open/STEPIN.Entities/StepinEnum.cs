@@ -79,4 +79,11 @@ namespace STEPIN.Entities
         EmailTrigger,
         TimeTrigger
     }
+
+    public enum AgentRunningStatus
+    {
+        Stopped,
+        Started,
+        Faulted
+    }
 }
