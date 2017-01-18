@@ -86,4 +86,11 @@ namespace STEPIN.Entities
         Started,
         Faulted
     }
+
+    public enum WorkflowState
+    {
+        InProgess,
+        Failed,
+        Complete
+    }
 }
