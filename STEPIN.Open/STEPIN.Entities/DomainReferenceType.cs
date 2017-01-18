@@ -26,6 +26,6 @@ namespace STEPIN.Entities
 
         public bool IsDeleted { get; set; }
 
-        public List<DomainReferenceItemType> DomainReferenceItemType { get; set; }
+        public List<DomainReferenceItem> DomainReferenceItems { get; set; }
     }
 }
