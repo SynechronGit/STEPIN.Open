@@ -56,7 +56,7 @@
     <Compile Include="ConfigurationVariable.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="DataConfigurationTable.cs" />
-    <Compile Include="DomainReferenceItemType.cs" />
+    <Compile Include="DomainReferenceItem.cs" />
     <Compile Include="DomainReferenceType.cs" />
     <Compile Include="EmailTrigger.cs" />
     <Compile Include="EngineEventArgs.cs" />
