@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="ActionScript.cs" />
     <Compile Include="ActionScriptVersion.cs" />
+    <Compile Include="AgentBAM.cs.cs" />
     <Compile Include="CheckpointMarker.cs" />
     <Compile Include="ConfigurationVariable.cs" />
     <Compile Include="Customer.cs" />
@@ -100,6 +101,7 @@
     <Compile Include="TimeTrigger.cs" />
     <Compile Include="WorkflowActivity.cs" />
     <Compile Include="ExecutionResult.cs" />
+    <Compile Include="WorkFlowBAM.cs" />
     <Compile Include="WorkflowLinkData.cs" />
     <Compile Include="WorkflowActivityNode.cs" />
     <Compile Include="WorkflowRunningInstance.cs" />

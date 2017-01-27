@@ -77,7 +77,8 @@ namespace STEPIN.Entities
     public enum TriggerType {
         FileTrigger,
         EmailTrigger,
-        TimeTrigger
+        TimeTrigger,
+        Manual
     }
 
     public enum AgentRunningStatus
