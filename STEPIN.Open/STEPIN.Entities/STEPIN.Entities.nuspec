@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>STEPIN.Open</id>
+    <version>1.0.43 </version>
+    <title>STEPIN.Open</title>
+    <authors>Synechron Technologies</authors>
+    <owners>Synechron Technologies</owners>
+    <!--<licenseUrl>http://LICENSE_URL_HERE_OR_DELETE_THIS_LINE</licenseUrl>
+    <projectUrl>http://PROJECT_URL_HERE_OR_DELETE_THIS_LINE</projectUrl>-->
+    <iconUrl>http://www.synechron.com/sites/all/themes/synechron/images/logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>STEPIN Open Entities</description>
+    <releaseNotes>This release of the package contains STEPIN Entities</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags></tags>
+  </metadata>
+</package>
