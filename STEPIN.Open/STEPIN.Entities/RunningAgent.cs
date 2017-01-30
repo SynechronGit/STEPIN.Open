@@ -10,7 +10,7 @@ namespace STEPIN.Entities
     {
         public Guid _id { get; set; }
 
-        public Guid TargetApplicationAgentId { get; set; }
+        public Guid ServiceAgentId { get; set; } //Agent 
 
         public AgentRunningStatus RunningStatus { get; set; }
 

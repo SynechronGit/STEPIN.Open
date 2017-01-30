@@ -83,15 +83,16 @@ namespace STEPIN.Entities
 
     public enum AgentRunningStatus
     {
-        Stopped,
-        Started,
-        Faulted
+        Available,
+        UnAvailable,
+        Working
     }
 
     public enum WorkflowState
     {
-        InProgess,
+        Queued,
+        Executing,
         Failed,
-        Complete
+        Completed
     }
 }
