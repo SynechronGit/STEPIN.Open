@@ -12,7 +12,9 @@ namespace STEPIN.Entities
 
         public Guid ServiceAgentId { get; set; } //Agent 
 
-        public AgentRunningStatus RunningStatus { get; set; }
+        public AgentRunningStatus RunningStatus { get; set; }        
+
+        public Guid WorkflowId { get; set; }
 
     }
 }
