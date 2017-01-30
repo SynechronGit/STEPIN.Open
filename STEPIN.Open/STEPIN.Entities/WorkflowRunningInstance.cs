@@ -15,8 +15,16 @@ namespace STEPIN.Entities
         //}
 
         public Guid _id { get; set; }
-        public int WorkflowId { get; set; }
+        public Guid WorkflowId { get; set; }
+        public Guid TriggerId { get; set; }
+        public Guid ProjectId { get; set; }
+        public Guid AgentId { get; set; }
         public WorkflowState WorkflowExecutionState { get; set; }
+        public string EnvironmentName { get; set; }
+
+        public DateTime StartedOn { get; set; }
+        public DateTime CompletedOn { get; set; }
+
         //public Dictionary<string, ActivityState> WFActivityState { get; set; }
 
         //Property of current activity in workflow

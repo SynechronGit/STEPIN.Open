@@ -40,6 +40,7 @@ namespace STEPIN.Entities
 
         public string ConditionExpression { get; set; }
 
+        public decimal DollarsSaved { get; set; }
 
     }
 }
