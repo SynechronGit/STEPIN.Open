@@ -52,7 +52,6 @@
   <ItemGroup>
     <Compile Include="ActionScript.cs" />
     <Compile Include="ActionScriptVersion.cs" />
-    <Compile Include="AgentBAM.cs.cs" />
     <Compile Include="CheckpointMarker.cs" />
     <Compile Include="ConfigurationVariable.cs" />
     <Compile Include="Customer.cs" />
