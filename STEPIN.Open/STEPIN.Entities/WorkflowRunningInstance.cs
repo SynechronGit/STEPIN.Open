@@ -17,7 +17,7 @@ namespace STEPIN.Entities
         public Guid _id { get; set; }
         public Guid WorkflowId { get; set; }
         public Guid TriggerId { get; set; }
-        public Guid ProjectId { get; set; }
+        //public Guid ProjectId { get; set; }
         public Guid AgentId { get; set; }
         public WorkflowState WorkflowExecutionState { get; set; }
         public string EnvironmentName { get; set; }
