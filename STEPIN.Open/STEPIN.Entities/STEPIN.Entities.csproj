@@ -89,6 +89,7 @@
     <Compile Include="PythonScriptVersion.cs" />
     <Compile Include="ResultsConstants.cs" />
     <Compile Include="RunningAgent.cs" />
+    <Compile Include="RunningWorkFlowActivity.cs" />
     <Compile Include="Screenshot.cs" />
     <Compile Include="ScriptTargetApplication.cs" />
     <Compile Include="ServiceAgent.cs" />
