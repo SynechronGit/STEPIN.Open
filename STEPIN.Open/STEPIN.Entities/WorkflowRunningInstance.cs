@@ -20,7 +20,10 @@ namespace STEPIN.Entities
         //public Guid ProjectId { get; set; }
         public Guid AgentId { get; set; }
         public WorkflowState WorkflowExecutionState { get; set; }
+
+        //To do: to be removed in future
         public string EnvironmentName { get; set; }
+        public Guid EnvironmentId { get; set; }
 
         public DateTime StartedOn { get; set; }
         public DateTime CompletedOn { get; set; }

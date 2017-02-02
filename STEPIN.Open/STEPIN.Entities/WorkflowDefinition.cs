@@ -20,6 +20,7 @@ namespace STEPIN.Entities
         public string Version { get; set; }
 
         public int PublishStatus { get; set; } //0 - Draft, 1 - Published
+        public object BlobUrl { get; set; }
 
     }
 }
