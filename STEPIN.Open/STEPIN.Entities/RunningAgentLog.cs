@@ -12,5 +12,7 @@ namespace STEPIN.Entities
         public DateTime Date { get; set; }
         public string Severity { get; set; }
         public string Message { get; set; }
+
+        public EntityType Type { get; set; }
     }
 }

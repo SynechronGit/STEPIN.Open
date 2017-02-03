@@ -95,4 +95,11 @@ namespace STEPIN.Entities
         Failed,
         Completed
     }
+
+    public enum EntityType
+    {
+        Agent,
+        Workflow
+        
+    }
 }
