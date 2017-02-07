@@ -59,6 +59,7 @@
     <Compile Include="DomainReferenceItem.cs" />
     <Compile Include="DomainReferenceType.cs" />
     <Compile Include="EmailTrigger.cs" />
+    <Compile Include="EmailTriggerMetaData.cs" />
     <Compile Include="EngineEventArgs.cs" />
     <Compile Include="EngineStartInfo.cs" />
     <Compile Include="Entity.cs" />
@@ -72,6 +73,7 @@
     <Compile Include="ExecutionProgressArgs.cs" />
     <Compile Include="ExecutionStatus.cs" />
     <Compile Include="FileTrigger.cs" />
+    <Compile Include="FileTriggerMetaData.cs" />
     <Compile Include="Form.cs" />
     <Compile Include="FormDefinition.cs" />
     <Compile Include="FormField.cs" />
@@ -100,6 +102,8 @@
     <Compile Include="TargetApplicationAgent.cs" />
     <Compile Include="TargetApplicationVersion.cs" />
     <Compile Include="TimeTrigger.cs" />
+    <Compile Include="TimeTriggerMetaData.cs" />
+    <Compile Include="TriggerMetaData.cs" />
     <Compile Include="WorkflowActivity.cs" />
     <Compile Include="ExecutionResult.cs" />
     <Compile Include="WorkFlowBAM.cs" />
@@ -119,7 +123,9 @@
     <Compile Include="WorkflowStep.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
