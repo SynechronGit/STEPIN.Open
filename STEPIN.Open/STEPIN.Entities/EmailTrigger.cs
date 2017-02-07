@@ -75,6 +75,11 @@ namespace STEPIN.Entities
         /// Job Name
         /// </summary>
         public string TriggerName { get; set; }
+
+        /// <summary>
+        /// Folder
+        /// </summary>
+        public string Folder { get; set; }
     }
 
 }
