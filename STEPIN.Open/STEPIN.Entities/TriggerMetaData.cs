@@ -13,6 +13,8 @@ namespace STEPIN.Entities
         public Guid EnvironmentId { get; set; }
         public Guid AgentId { get; set; }
         public DateTime CreatedDate { get; set; }
+
+        public string BlobURL { get; set; }
        
     }
 }
