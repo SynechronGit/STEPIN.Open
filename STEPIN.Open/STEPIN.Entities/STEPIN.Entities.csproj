@@ -84,6 +84,7 @@
     <Compile Include="IFTTTApplet.cs" />
     <Compile Include="Keyword.cs" />
     <Compile Include="MaintenanceWindow.cs" />
+    <Compile Include="ManualTriggerMetaData.cs" />
     <Compile Include="MapAttribute.cs" />
     <Compile Include="ObjectLookup.cs" />
     <Compile Include="Page.cs" />
