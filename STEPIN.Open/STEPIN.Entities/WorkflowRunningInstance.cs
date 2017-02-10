@@ -28,6 +28,10 @@ namespace STEPIN.Entities
         public DateTime StartedOn { get; set; }
         public DateTime CompletedOn { get; set; }
 
+        public List<ConfigurationVariable> Variables { get; set; }
+
+        public string BlobUrl { get; set; }
+
         //public Dictionary<string, ActivityState> WFActivityState { get; set; }
 
         //Property of current activity in workflow
