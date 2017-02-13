@@ -13,6 +13,8 @@ namespace STEPIN.Entities
         public string figure { get; set; }
         public string key { get; set; }
         public string loc { get; set; }
+        public int eventType { get; set; }
+        public int eventDimension { get; set; }
         public Setting settings { get; set; }
         public ActivityState ExecutationState { get; set; }
         public string category { get; set; }
