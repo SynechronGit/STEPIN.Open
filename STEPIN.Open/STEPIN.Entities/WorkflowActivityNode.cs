@@ -20,28 +20,5 @@ namespace STEPIN.Entities
         public string category { get; set; }
     }
 
-    public class TestToolName
-    {
-        public Guid _id { get; set; }
-        public string name { get; set; }
-        public string value { get; set; }
-        //public string hashKey { get; set; }
-        //public string mdSelectId { get; set; }
-    }
-
-    public class Setting
-    {
-        public Guid _id { get; set; }
-        public string entityname { get; set; }
-        public string version { get; set; }
-        public TestToolName testtoolname { get; set; }
-
-    }
-    
-    public enum ActivityState
-    {
-        InProgess,
-        Failed,
-        Passed
-    }
+  
 }

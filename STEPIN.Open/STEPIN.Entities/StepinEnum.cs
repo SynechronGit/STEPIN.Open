@@ -102,4 +102,12 @@ namespace STEPIN.Entities
         Workflow
         
     }
+
+    public enum ActivityState
+    {
+        InProgess,
+        Queued,
+        Failed,
+        Passed
+    }
 }

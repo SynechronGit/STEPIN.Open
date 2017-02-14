@@ -95,9 +95,11 @@
     <Compile Include="RunningAgentLog.cs" />
     <Compile Include="RunningWorkFlowActivity.cs" />
     <Compile Include="Screenshot.cs" />
+    <Compile Include="ScriptDetails.cs" />
     <Compile Include="ScriptTargetApplication.cs" />
     <Compile Include="ServiceAgent.cs" />
     <Compile Include="Session.cs" />
+    <Compile Include="Setting.cs" />
     <Compile Include="StepinEnum.cs" />
     <Compile Include="TargetApplication.cs" />
     <Compile Include="TargetApplicationAgent.cs" />
