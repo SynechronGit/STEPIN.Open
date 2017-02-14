@@ -8,5 +8,8 @@ namespace STEPIN.Entities
 {
     public class TimeTriggerMetaData:TriggerMetaData
     {
+        public DateTime TriggerTime { get; set; }
+        public int Recurrence { get; set; }
+    
     }
 }
