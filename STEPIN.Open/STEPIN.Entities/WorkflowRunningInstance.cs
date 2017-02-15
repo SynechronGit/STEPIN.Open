@@ -14,9 +14,17 @@ namespace STEPIN.Entities
         //    Context = new Dictionary<string, WorkflowContext>();
         //}
 
+        public WorkflowRunningInstance()
+        {
+            Activities = new List<WorkflowActivityNode>();
+            ActivityLinkData = new List<WorkflowLinkData>();
+        }
+
         public Guid _id { get; set; }
         public Guid WorkflowId { get; set; }
+        public Guid WorkflowDefinitionId { get; set; }
         public Guid TriggerId { get; set; }
+        
         //public Guid ProjectId { get; set; }
         public Guid AgentId { get; set; }
         public WorkflowState WorkflowExecutionState { get; set; }
@@ -31,6 +39,10 @@ namespace STEPIN.Entities
         public List<ConfigurationVariable> Variables { get; set; }
 
         public string BlobUrl { get; set; }
+
+        public List<WorkflowActivityNode> Activities { get; set; }
+
+        public List<WorkflowLinkData> ActivityLinkData { get; set; }
 
         //public Dictionary<string, ActivityState> WFActivityState { get; set; }
 

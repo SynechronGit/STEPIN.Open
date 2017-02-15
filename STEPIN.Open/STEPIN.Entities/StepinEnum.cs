@@ -110,4 +110,19 @@ namespace STEPIN.Entities
         Failed,
         Passed
     }
+
+    public enum TaskType
+    {
+        Start,
+        HumanAction,
+        ExecuteScript,
+        End
+    }
+
+    public enum ScriptEngine
+    {
+        TestComplete=1,
+        Automise=2,
+        PythonScript=3
+    }
 }

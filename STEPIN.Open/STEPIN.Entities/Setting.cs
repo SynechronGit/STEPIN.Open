@@ -11,5 +11,7 @@ namespace STEPIN.Entities
         public Guid _id { get; set; }
      
         public ScriptDetails scriptName { get; set; }
+
+        public HumanAction selectedhumanaction { get; set; }
     }
 }
