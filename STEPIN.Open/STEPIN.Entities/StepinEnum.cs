@@ -116,6 +116,7 @@ namespace STEPIN.Entities
         Start,
         HumanAction,
         ExecuteScript,
+        Condition,
         End
     }
 

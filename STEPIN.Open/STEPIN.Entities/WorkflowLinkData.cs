@@ -14,7 +14,8 @@ namespace STEPIN.Entities
         public string fromport { get; set; }
         public string toport { get; set; }
         public bool visible { get; set; }
-        public float[] points { get; set; }
+        //public float[] points { get; set; }
+        public double[] points { get; set; }
 
     }
 }
