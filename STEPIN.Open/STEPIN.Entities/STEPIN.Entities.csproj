@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="ActionScript.cs" />
     <Compile Include="ActionScriptVersion.cs" />
+    <Compile Include="AgentRegistry.cs" />
     <Compile Include="CheckpointMarker.cs" />
     <Compile Include="ConfigurationVariable.cs" />
     <Compile Include="Customer.cs" />
@@ -84,6 +85,7 @@
     <Compile Include="HumanAction.cs" />
     <Compile Include="IFTTTApplet.cs" />
     <Compile Include="Keyword.cs" />
+    <Compile Include="LockRegistry.cs" />
     <Compile Include="MaintenanceWindow.cs" />
     <Compile Include="ManualTriggerMetaData.cs" />
     <Compile Include="MapAttribute.cs" />
