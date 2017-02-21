@@ -126,4 +126,9 @@ namespace STEPIN.Entities
         Automise=2,
         PythonScript=3
     }
+
+    public enum Lock {
+        Acquired,
+        Released
+    }
 }

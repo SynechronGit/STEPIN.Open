@@ -20,5 +20,7 @@ namespace STEPIN.Entities
 
         public DateTime Expires { get; set; }
 
+        public Lock Lock { get; set; }
+
     }
 }
