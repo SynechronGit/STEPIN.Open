@@ -11,6 +11,20 @@ namespace STEPIN.Entities
         public Guid _id { get; set; }
         public Guid WorkflowId { get; set; }
         public Guid WorkflowDefinitionId { get; set; }
+        /// <summary>
+        /// Requires when saving wf running instance.
+        /// </summary>
+        public Guid TriggerId { get; set; }
+
+        /// <summary>
+        /// Requires when assiging activity to agent
+        /// </summary>
+        public Guid AgentId { get; set; }
+
+        /// <summary>
+        /// Url contains file/email/time/manual trigger metadata, Requires when saving wf running instance.
+        /// </summary>
+        public string BlobUrl { get; set; }
         public string Text { get; set; }
         public string Category { get; set; }
         public string Key { get; set; }
