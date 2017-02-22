@@ -12,6 +12,8 @@ namespace STEPIN.Entities
 
         public Guid AgentId { get; set; }
 
+        public Guid EnvironmentId { get; set; }
+
         public string MachineName { get; set; }
 
         public string MacId { get; set; }
