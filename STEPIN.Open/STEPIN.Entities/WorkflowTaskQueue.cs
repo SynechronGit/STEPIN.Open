@@ -11,6 +11,9 @@ namespace STEPIN.Entities
         public Guid _id { get; set; }
         public Guid WorkflowId { get; set; }
         public Guid WorkflowDefinitionId { get; set; }
+
+        public Guid WorkflowRunningInstanceId { get; set; }
+
         /// <summary>
         /// Requires when saving wf running instance.
         /// </summary>
