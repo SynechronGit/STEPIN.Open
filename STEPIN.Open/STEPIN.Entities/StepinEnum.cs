@@ -93,7 +93,9 @@ namespace STEPIN.Entities
         Queued,
         Executing,
         Failed,
-        Completed
+        Completed,
+        Started,
+        Aborted
     }
 
     public enum EntityType
