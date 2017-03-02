@@ -110,7 +110,9 @@ namespace STEPIN.Entities
         InProgess,
         Queued,
         Failed,
-        Passed
+        Passed,
+        Started,
+        Aborted
     }
 
     public enum TaskType
