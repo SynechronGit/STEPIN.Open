@@ -9,7 +9,7 @@ namespace STEPIN.Entities
    public class ScriptDetails
     {
         //public Guid id { get; set; }
-        public string id { get; set; }
+        public string SId { get; set; }
         public string ScriptEngine { get; set; }
         public string ScriptDescription { get; set; }
         public string ScriptName { get; set; }

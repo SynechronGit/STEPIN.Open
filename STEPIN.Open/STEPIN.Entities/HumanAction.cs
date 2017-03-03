@@ -8,7 +8,7 @@ namespace STEPIN.Entities
 {
    public class HumanAction
     {
-        public int id { get; set; }
+        public int SId { get; set; }
         public string value { get; set; }
         public string selectedTaskAction { get; set; }
     }
