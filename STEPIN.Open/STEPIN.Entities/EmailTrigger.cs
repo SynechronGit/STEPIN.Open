@@ -80,6 +80,13 @@ namespace STEPIN.Entities
         /// Folder
         /// </summary>
         public string Folder { get; set; }
+
+        // added for #18 github Issues
+        public int RefreshHours { set; get; }
+
+        public int RefreshMinutes { set; get; }
+
+        public int RefreshSeconds { set; get; }
     }
 
 }

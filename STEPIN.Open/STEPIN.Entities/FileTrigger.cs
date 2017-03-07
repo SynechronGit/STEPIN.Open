@@ -50,5 +50,12 @@ namespace STEPIN.Entities
         /// Trigger Name
         /// </summary>
         public string TriggerName { get; set; }
+
+        // added for #18 github Issues
+        public int RefreshHours { set; get; }
+
+        public int RefreshMinutes { set; get; }
+
+        public int RefreshSeconds { set; get; }
     }
 }
