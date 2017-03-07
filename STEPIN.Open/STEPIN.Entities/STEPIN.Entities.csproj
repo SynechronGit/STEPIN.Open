@@ -54,6 +54,7 @@
     <Compile Include="ActionScriptVersion.cs" />
     <Compile Include="AgentConfiguration.cs" />
     <Compile Include="AgentRegistry.cs" />
+    <Compile Include="AgentSoftware.cs" />
     <Compile Include="CheckpointMarker.cs" />
     <Compile Include="ConfigurationVariable.cs" />
     <Compile Include="Customer.cs" />
