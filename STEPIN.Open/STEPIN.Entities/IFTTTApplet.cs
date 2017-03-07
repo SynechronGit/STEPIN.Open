@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace STEPIN.Entities {
 
@@ -43,5 +44,7 @@ namespace STEPIN.Entities {
         /// Turn Applet On/Off
         /// </summary>
         public bool AppletOnOff { get; set; }
+
+        public List<string> PromotedEnvironments { get; set; }
     }
 }
