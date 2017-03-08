@@ -10,7 +10,7 @@ namespace STEPIN.Entities
     {
         public Guid _id { get; set; }
 
-        public Guid AgentFamilyID {get;set;}
+        public Guid AgentFamilyId {get;set;}
 
         public string AgentName { get; set; }
 

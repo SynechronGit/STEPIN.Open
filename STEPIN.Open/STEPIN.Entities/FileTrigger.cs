@@ -54,7 +54,7 @@ namespace STEPIN.Entities
         /// <summary>
         /// Agent Family ID
         /// </summary>
-        public Guid AgentFamilyID { get; set; }
+        public Guid AgentFamilyId { get; set; }
 
         // added for #18 github Issues
         public int RefreshHours { set; get; }
