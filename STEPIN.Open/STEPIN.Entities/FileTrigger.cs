@@ -51,6 +51,11 @@ namespace STEPIN.Entities
         /// </summary>
         public string TriggerName { get; set; }
 
+        /// <summary>
+        /// Agent Family ID
+        /// </summary>
+        public Guid AgentFamilyID { get; set; }
+
         // added for #18 github Issues
         public int RefreshHours { set; get; }
 
