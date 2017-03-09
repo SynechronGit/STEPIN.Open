@@ -72,6 +72,7 @@
     <Compile Include="EntityDefinition.cs" />
     <Compile Include="EntityFilter.cs" />
     <Compile Include="EntityRelationship.cs" />
+    <Compile Include="EntitySchema.cs" />
     <Compile Include="Environment.cs" />
     <Compile Include="ExecutionProgressArgs.cs" />
     <Compile Include="ExecutionStatus.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="FormField.cs" />
     <Compile Include="FormFieldDefinition.cs" />
     <Compile Include="FormFieldValidation.cs" />
+    <Compile Include="FormSchema.cs" />
     <Compile Include="Function.cs" />
     <Compile Include="FunctionStep.cs" />
     <Compile Include="HumanAction.cs" />
