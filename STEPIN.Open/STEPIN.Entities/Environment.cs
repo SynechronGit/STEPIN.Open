@@ -14,7 +14,7 @@ namespace STEPIN.Entities
 
         public string Name { get; set; }
         public string Description { get; set; }
-        public int SeniorityLevel   { get; set; }
+        public int? SeniorityLevel   { get; set; }
 
     }
 }
