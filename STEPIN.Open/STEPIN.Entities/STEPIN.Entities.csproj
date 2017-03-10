@@ -113,7 +113,9 @@
     <Compile Include="TargetApplicationVersion.cs" />
     <Compile Include="TimeTrigger.cs" />
     <Compile Include="TimeTriggerMetaData.cs" />
+    <Compile Include="TriggerAttribute.cs" />
     <Compile Include="TriggerMetaData.cs" />
+    <Compile Include="VariableAttributeMapping.cs" />
     <Compile Include="WorkflowActivity.cs" />
     <Compile Include="ExecutionResult.cs" />
     <Compile Include="WorkFlowBAM.cs" />
