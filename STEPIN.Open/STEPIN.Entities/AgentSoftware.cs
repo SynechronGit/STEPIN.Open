@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,6 +12,8 @@ namespace STEPIN.Entities
         /// <summary>
         /// mongo db document _id
         /// </summary>
+        
+            [Key]
         public Guid _id { get; set; }
 
         /// <summary>
