@@ -82,6 +82,7 @@
     <Compile Include="FormField.cs" />
     <Compile Include="FormFieldDefinition.cs" />
     <Compile Include="FormFieldValidation.cs" />
+    <Compile Include="FormSchema.cs" />
     <Compile Include="Function.cs" />
     <Compile Include="FunctionStep.cs" />
     <Compile Include="GridSetting.cs" />
