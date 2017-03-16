@@ -13,7 +13,7 @@ namespace STEPIN.Entities
         /// mongo db document _id
         /// </summary>
         
-            [Key]
+
         public Guid _id { get; set; }
 
         /// <summary>
