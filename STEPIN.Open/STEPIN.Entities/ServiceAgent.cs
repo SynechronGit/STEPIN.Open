@@ -18,6 +18,8 @@ namespace STEPIN.Entities
 
         public bool IsActive { get; set; }
 
+        public bool AllowAutoProvision { get; set; }
+
         public string LicenseId { get; set; }
     }
 }

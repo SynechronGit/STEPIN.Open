@@ -87,6 +87,11 @@ namespace STEPIN.Entities
         public int RefreshMinutes { set; get; }
 
         public int RefreshSeconds { set; get; }
+
+        /// <summary>
+        /// Agent Family ID
+        /// </summary>
+        public Guid AgentFamilyId { get; set; }
     }
 
 }

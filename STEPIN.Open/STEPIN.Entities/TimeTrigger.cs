@@ -66,6 +66,11 @@ namespace STEPIN.Entities
         /// </summary>
         public bool? NoJobEndDate { get; set; }
 
+        /// <summary>
+        /// Agent Family ID
+        /// </summary>
+        public Guid AgentFamilyId { get; set; }
+
     }
 
    
