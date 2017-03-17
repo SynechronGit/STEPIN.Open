@@ -135,4 +135,17 @@ namespace STEPIN.Entities
         Acquired,
         Released
     }
+
+    public enum ErrorLevel {        
+        Checkpoint,        
+        Error,
+        Fatal,
+        Message,
+        Warning
+    }
+
+    public enum SessionStatus {
+        Fail,
+        Success
+    }
 }

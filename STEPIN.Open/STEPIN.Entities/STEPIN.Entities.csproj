@@ -92,6 +92,7 @@
     <Compile Include="IFTTTApplet.cs" />
     <Compile Include="Keyword.cs" />
     <Compile Include="LockRegistry.cs" />
+    <Compile Include="Log.cs" />
     <Compile Include="MaintenanceWindow.cs" />
     <Compile Include="ManualTriggerMetaData.cs" />
     <Compile Include="MapAttribute.cs" />
@@ -108,6 +109,7 @@
     <Compile Include="ScriptTargetApplication.cs" />
     <Compile Include="ServiceAgent.cs" />
     <Compile Include="Session.cs" />
+    <Compile Include="SessionLog.cs" />
     <Compile Include="Setting.cs" />
     <Compile Include="StepinEnum.cs" />
     <Compile Include="TargetApplication.cs" />
@@ -123,6 +125,7 @@
     <Compile Include="WorkFlowBAM.cs" />
     <Compile Include="WorkflowLinkData.cs" />
     <Compile Include="WorkflowActivityNode.cs" />
+    <Compile Include="WorkflowLog.cs" />
     <Compile Include="WorkflowRunningInstance.cs" />
     <Compile Include="WorkflowDefinition.cs" />
     <Compile Include="WorkflowTaskQueue.cs" />
