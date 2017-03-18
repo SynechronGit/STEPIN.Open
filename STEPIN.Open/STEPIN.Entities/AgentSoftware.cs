@@ -19,7 +19,7 @@ namespace STEPIN.Entities
         /// <summary>
         /// Software Version
         /// </summary>
-        public string Version { get; set; }
+        public int Version { get; set; }
 
         /// <summary>
         /// Software Url
