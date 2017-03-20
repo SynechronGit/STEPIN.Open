@@ -129,6 +129,7 @@
     <Compile Include="WorkflowLog.cs" />
     <Compile Include="WorkflowRunningInstance.cs" />
     <Compile Include="WorkflowDefinition.cs" />
+    <Compile Include="WorkflowTask.cs" />
     <Compile Include="WorkflowTaskQueue.cs" />
     <Compile Include="WorkQueue.cs" />
     <Compile Include="Workspace.cs" />
