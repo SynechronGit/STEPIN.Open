@@ -57,6 +57,7 @@
     <Compile Include="AgentManifest.cs" />
     <Compile Include="AgentRegistry.cs" />
     <Compile Include="AgentSoftware.cs" />
+    <Compile Include="AgentTrigger.cs" />
     <Compile Include="CheckpointMarker.cs" />
     <Compile Include="ConfigurationVariable.cs" />
     <Compile Include="Customer.cs" />
