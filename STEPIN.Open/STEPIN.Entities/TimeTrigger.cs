@@ -2,7 +2,7 @@
 
 namespace STEPIN.Entities
 {
-    public class TimeTrigger
+    public class TimeTrigger : ITrigger
     {
         public Guid _id { get; set; }
 
