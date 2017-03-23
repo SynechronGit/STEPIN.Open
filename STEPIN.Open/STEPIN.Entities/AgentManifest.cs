@@ -19,9 +19,9 @@ namespace STEPIN.Entities
         public string AgentFamilyName { get; set; }
 
         /// <summary>
-        /// Agent Family Key
+        /// Agent Family License Id
         /// </summary>
-        public string AgentFamilyKey { get; set; }
+        public string AgentFamilyLicenseId { get; set; }
 
         /// <summary>
         /// Agent Configuration Id
