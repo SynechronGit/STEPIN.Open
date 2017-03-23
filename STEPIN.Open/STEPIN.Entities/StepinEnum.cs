@@ -148,4 +148,9 @@ namespace STEPIN.Entities
         Fail,
         Success
     }
+    
+    public enum WorkFlowTaskType
+    {
+        TestComplete
+    }
 }

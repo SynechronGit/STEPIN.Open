@@ -15,7 +15,7 @@ namespace STEPIN.Entities
 
         public Guid IFTTTAppletId { get; set; }
 
-        //metadata
+        //metadata-
         public EmailTriggerMetaData EmailMetadata { get; set; }
         public FileTriggerMetatData FileMetadata { get; set; }
 
