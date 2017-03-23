@@ -127,6 +127,7 @@
     <Compile Include="WorkflowActivity.cs" />
     <Compile Include="ExecutionResult.cs" />
     <Compile Include="WorkFlowBAM.cs" />
+    <Compile Include="WorkflowInstance.cs" />
     <Compile Include="WorkflowLinkData.cs" />
     <Compile Include="WorkflowActivityNode.cs" />
     <Compile Include="WorkflowLog.cs" />

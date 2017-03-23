@@ -7,20 +7,17 @@ using System.Threading.Tasks;
 namespace STEPIN.Entities
 {
     public class IFTTTTrigger
-    {
-
-        /// <summary>
-        /// Trigger Metadata can be of any type - Email / File / Manual / Time
-        /// </summary>
-        public TriggerMetaData TriggerMetadata { get; set; }
-
-        /// <summary>
+    {   /// <summary>
         /// Can be type trigger instance - Email / File / Manual / Time
         /// </summary>
-        public ITrigger TriggerInstance { get; set; } 
+        public Guid TriggerId { get; set; }
+        public TriggerType TriggerType { get; set; }
 
-        public IFTTTApplet IFTTTtemplate { get; set; }
-        
+        public Guid IFTTTAppletId { get; set; }
+
+        //metadata
+        public EmailTriggerMetaData EmailMetadata { get; set; }
+        public FileTriggerMetatData FileMetadata { get; set; }
 
     }
 }
