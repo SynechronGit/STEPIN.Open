@@ -71,6 +71,25 @@ namespace STEPIN.Entities
         /// </summary>
         public Guid AgentFamilyId { get; set; }
 
+        public Status Status
+        {
+            get;set;
+        }
+
+        public Guid WorkspaceID
+        {
+            get;set;
+        }
+
+        public DateTime? ExpiryDate
+        {
+            get;set;
+        }
+
+        public DateTime? StartDateTime
+        {
+            get;set;
+        }
     }
 
    
