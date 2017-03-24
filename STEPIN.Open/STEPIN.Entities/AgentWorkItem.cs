@@ -15,5 +15,8 @@ namespace STEPIN.Entities
         public Guid WorkTaskId { get; set; }
         public WorkFlowTaskType TaskType { get; set; }
         public Guid ActionScriptId { get; set; }
+        public Guid AgentFamilyId { get; set; }
+        public Guid EnvironmentId { get; set; }
+
     }
 }
