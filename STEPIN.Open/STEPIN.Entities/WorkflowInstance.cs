@@ -33,5 +33,10 @@ namespace STEPIN.Entities
         public EmailTriggerMetaData EmailMetadata { get; set; }
         public FileTriggerMetatData FileMetadata { get; set; }
 
+        /// <summary>
+        /// Workflow definition - Latest version / configurred version in IFTTTT
+        /// </summary>
+        public WorkflowDefinition WorkflowDefinitionItem { get; set; }
+
     }
 }
