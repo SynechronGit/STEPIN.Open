@@ -19,5 +19,25 @@ namespace STEPIN.Entities
         public string Output { get; set; }
         public WorkFlowTaskType TaskType { get; set; }
         public Guid ActionScriptId { get; set; }
+        public TaskStatusType Status { get; set; }
     }
+
+
+    public enum TaskStatusType : int
+    {
+        Unknown = 0,
+        Created = 1,
+        Queued = 2,
+        Dequeued = 3,
+        Executing = 4,
+        Aborted = 5,
+        Completed = 6,
+        CompletedWithSuccess = 7,
+        CompletedWithFailure = 8,
+        CompletedPendingRetry = 9
+
+    }
+
+
+
 }

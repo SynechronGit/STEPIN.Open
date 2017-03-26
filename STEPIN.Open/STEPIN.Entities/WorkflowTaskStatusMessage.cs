@@ -32,5 +32,7 @@ namespace STEPIN.Entities
         public DateTime CompletedOnUTC { get; set; }
         public Guid AssignedAgentConfigurationId { get; set; }
         public WorkflowTaskCommandMessage OriginalCommand { get; set; }
+
+        public TaskStatusType Status { get; set; }
     }
 }
