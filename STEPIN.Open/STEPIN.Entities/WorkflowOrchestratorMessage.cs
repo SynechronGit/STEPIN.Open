@@ -9,7 +9,8 @@ namespace STEPIN.Entities
     public class WorkflowOrchestratorMessage
     {
         public Guid WorkflowInstanceId { get; set; }
-        public Guid WorkflowDefinitionId { get; set; }  
+        public Guid WorkflowId { get; set; }  
+        public Guid WorkflowDefinitionId { get; set; }
 
     }
 }
