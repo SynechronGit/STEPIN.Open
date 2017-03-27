@@ -17,5 +17,9 @@ namespace STEPIN.Entities
         public DateTime? EndOn { get; set; }
         public int Status { get; set; }//Draft/Published
 
+        public string ProjectFileName { get; set; }
+        public string ProjectName { get; set; }
+        public string ProjectItemName { get; set; }
+
     }
 }
