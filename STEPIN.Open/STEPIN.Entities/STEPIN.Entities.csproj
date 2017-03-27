@@ -103,6 +103,7 @@
     <Compile Include="ObjectLookup.cs" />
     <Compile Include="Page.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PublishedActionScript.cs" />
     <Compile Include="PythonScriptVersion.cs" />
     <Compile Include="ResultsConstants.cs" />
     <Compile Include="RunningAgent.cs" />
