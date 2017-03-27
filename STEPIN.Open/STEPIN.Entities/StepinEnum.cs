@@ -148,9 +148,19 @@ namespace STEPIN.Entities
         Fail,
         Success
     }
-    
-    public enum WorkFlowTaskType
+
+    public enum WorkFlowTaskType : int
     {
-        TestComplete
+        Unknown = 0,
+        Start = 1,
+        Condition = 2,
+        LoopStart = 3,
+        LoopEnd = 4,
+        ManualTask = 5,
+        Action_TestComplete = 6,
+        Action_PythonScript = 7,
+        Action_VBScript = 8,
+        Error = 9
     }
+
 }
