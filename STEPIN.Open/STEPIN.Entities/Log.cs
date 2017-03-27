@@ -48,5 +48,15 @@ namespace STEPIN.Entities
         /// To Do : verify for Log description
         /// </summary>
         public string Description { get; set; }
+
+        /// <summary>
+        /// WorkflowRunning Instance Id
+        /// </summary>
+        public Guid WorkflowRunningInstanceId { get; set; }
+
+        /// <summary>
+        /// Session Log Id
+        /// </summary>
+        public Guid SessionLogId { get; set; }
     }
 }
