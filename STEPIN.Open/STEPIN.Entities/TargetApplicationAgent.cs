@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
+    [Obsolete]
+    //TODO - To be deleted.
     public class TargetApplicationAgent
     {
         /// <summary>
