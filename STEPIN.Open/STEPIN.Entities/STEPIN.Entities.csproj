@@ -59,7 +59,10 @@
     <Compile Include="AgentSoftware.cs" />
     <Compile Include="AgentTrigger.cs" />
     <Compile Include="AgentWorkItem.cs" />
+    <Compile Include="BlobModel.cs" />
+    <Compile Include="BlobUploadModel.cs" />
     <Compile Include="CheckpointMarker.cs" />
+    <Compile Include="CommonBlobMaster.cs" />
     <Compile Include="ConfigurationVariable.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="DataConfigurationTable.cs" />
