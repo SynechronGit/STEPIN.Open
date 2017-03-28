@@ -19,5 +19,10 @@ namespace STEPIN.Entities
         public bool AllowAutoProvision { get; set; }
 
         public string LicenseId { get; set; }
+
+        /// <summary>
+        /// Added after discussion with Pradeep for issues discussed on 28/03/2016
+        /// </summary>
+        public bool IsSystemUnknown { get; set; }
     }
 }
