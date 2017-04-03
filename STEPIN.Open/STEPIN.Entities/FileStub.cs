@@ -4,7 +4,7 @@ namespace STEPIN.Entities
 {
     public class FileStub
     {
-        public Guid Id { get; set; }
+        public Guid _id { get; set; }
 
         public string Folder { get; set; }
 

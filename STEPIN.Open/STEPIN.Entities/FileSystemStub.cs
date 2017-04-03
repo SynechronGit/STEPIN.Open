@@ -18,7 +18,7 @@ namespace STEPIN.Entities
         /// </summary>
         public Guid _id { get; set; }
 
-        public string TriggerID { get; set; }
+        public Guid TriggerID { get; set; }
 
         public DateTime LastUpdatedOn { get; set; }
 
