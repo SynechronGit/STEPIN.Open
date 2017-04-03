@@ -13,6 +13,11 @@ namespace STEPIN.Entities
             Files = new List<FileStub>();
         }
 
+        /// <summary>
+        /// mongo db collection id
+        /// </summary>
+        public Guid _id { get; set; }
+
         public string TriggerID { get; set; }
 
         public DateTime LastUpdatedOn { get; set; }
