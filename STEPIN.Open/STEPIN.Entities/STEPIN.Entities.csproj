@@ -84,6 +84,8 @@
     <Compile Include="Environment.cs" />
     <Compile Include="ExecutionProgressArgs.cs" />
     <Compile Include="ExecutionStatus.cs" />
+    <Compile Include="FileStub.cs" />
+    <Compile Include="FileSystemStub.cs" />
     <Compile Include="FileTrigger.cs" />
     <Compile Include="FileTriggerMetaData.cs" />
     <Compile Include="Form.cs" />
