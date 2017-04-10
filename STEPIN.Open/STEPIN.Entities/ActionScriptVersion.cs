@@ -19,9 +19,7 @@ namespace STEPIN.Entities
 
         public string ProjectFileName { get; set; }
         public string ProjectName { get; set; }
-        
-        //To Do: Commenting as of now.
-        //public string ProjectItemName { get; set; }
+        public string ProjectItemName { get; set; }
         public string UnitName { get; set; }
         public string Routine { get; set; }
         
