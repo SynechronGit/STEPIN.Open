@@ -98,6 +98,8 @@
     <Compile Include="FunctionStep.cs" />
     <Compile Include="GridSetting.cs" />
     <Compile Include="HumanAction.cs" />
+    <Compile Include="Identity.cs" />
+    <Compile Include="IdentityVersion.cs" />
     <Compile Include="IFTTTApplet.cs" />
     <Compile Include="ITrigger.cs" />
     <Compile Include="Keyword.cs" />
