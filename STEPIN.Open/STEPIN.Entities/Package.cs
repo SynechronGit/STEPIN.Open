@@ -9,11 +9,16 @@ namespace STEPIN.Entities
         /// mongo db document id
         /// </summary>
         public Guid _id { get; set; }
-
+        
         /// <summary>
         /// Package name
         /// </summary>
         public string PackageName { get; set; }
+
+        /// <summary>
+        /// Package Category
+        /// </summary>
+        public string Category { get; set; }
 
         /// <summary>
         /// Description
