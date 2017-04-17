@@ -163,4 +163,18 @@ namespace STEPIN.Entities
         Error = 9
     }
 
+    public enum PackageType : int
+    {
+        WindowsCommandLineExecutable = 0,
+        WorkflowAction = 1,
+        ScriptExtension = 2,
+        TestCompleteLibrary = 3,
+        Other = 4
+    }
+
+    public enum ReturnValueType : int
+    {
+        ReturnsACollection = 0,
+        DefaultScriptObjectName = 1
+    }
 }
