@@ -124,6 +124,7 @@
     <Compile Include="Screenshot.cs" />
     <Compile Include="ScriptDetails.cs" />
     <Compile Include="ScriptTargetApplication.cs" />
+    <Compile Include="ScriptVersion.cs" />
     <Compile Include="ServiceAgent.cs" />
     <Compile Include="Session.cs" />
     <Compile Include="SessionLog.cs" />
