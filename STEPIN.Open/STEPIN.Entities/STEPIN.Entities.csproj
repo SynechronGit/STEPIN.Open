@@ -55,6 +55,7 @@
     <Compile Include="ActionParameter.cs" />
     <Compile Include="ActionScript.cs" />
     <Compile Include="ActionScriptVersion.cs" />
+    <Compile Include="ActionScriptVersionPackage.cs" />
     <Compile Include="AgentConfiguration.cs" />
     <Compile Include="AgentFamilyTargetApplication.cs" />
     <Compile Include="AgentManifest.cs" />
