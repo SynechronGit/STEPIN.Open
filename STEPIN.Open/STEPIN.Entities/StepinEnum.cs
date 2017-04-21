@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -165,10 +166,19 @@ namespace STEPIN.Entities
 
     public enum PackageType : int
     {
+        [Description("Windows Command Line Executable")]
         WindowsCommandLineExecutable = 0,
+
+        [Description("Workflow Action")]
         WorkflowAction = 1,
+
+        [Description("Script Extension")]
         ScriptExtension = 2,
+
+        [Description("Test Complete Library")]
         TestCompleteLibrary = 3,
+
+        [Description("Other")]
         Other = 4
     }
 
