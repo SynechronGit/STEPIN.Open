@@ -192,7 +192,10 @@ namespace STEPIN.Entities
 
     public enum ReturnValueType : int
     {
+        [Description("Returns A Collection")]
         ReturnsACollection = 0,
+
+        [Description("Default Script Object Name")]
         DefaultScriptObjectName = 1
     }
 }
