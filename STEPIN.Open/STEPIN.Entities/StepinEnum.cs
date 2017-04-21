@@ -125,11 +125,19 @@ namespace STEPIN.Entities
         End
     }
 
-    public enum ScriptEngine
+    public enum ScriptEngine : int
     {
-        TestComplete=1,
-        Automise=2,
-        PythonScript=3
+        [Description("TestComplete")]
+        TestComplete = 1,
+
+        [Description("Automise")]
+        Automise = 2,
+
+        [Description("Java Script")]
+        JavaScript = 3,
+
+        [Description("Step Framework")]
+        StepFramework = 4       
     }
 
     public enum Lock {
