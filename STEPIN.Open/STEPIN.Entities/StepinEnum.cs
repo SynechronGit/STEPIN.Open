@@ -130,14 +130,11 @@ namespace STEPIN.Entities
         [Description("TestComplete")]
         TestComplete = 1,
 
-        [Description("Automise")]
-        Automise = 2,
-
         [Description("Java Script")]
-        JavaScript = 3,
+        JavaScript = 2,
 
         [Description("Step Framework")]
-        StepFramework = 4       
+        StepFramework = 3       
     }
 
     public enum Lock {
