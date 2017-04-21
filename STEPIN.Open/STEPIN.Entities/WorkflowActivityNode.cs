@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {  
-    public class WorkflowActivityNode
+    public class WorkflowActivityNode:IDoucment
     {
         public Guid _id { get; set; }
         public string text { get; set; }
@@ -20,6 +20,11 @@ namespace STEPIN.Entities
         public Setting settings { get; set; }
         public ActivityState ExecutationState { get; set; }
         public string category { get; set; }
+
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 
   

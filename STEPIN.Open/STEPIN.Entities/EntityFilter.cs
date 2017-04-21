@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace STEPIN.Entities
 {
-    public class EntityFilter
+    public class EntityFilter:IDoucment
     {
         public Guid _id { get; set; }
 
@@ -18,5 +18,10 @@ namespace STEPIN.Entities
         public string FilterFunctionHash { get; set; }
 
         public List<string> FilterParameters { get; set; }
+
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 }

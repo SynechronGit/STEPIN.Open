@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class RunningWorkFlowActivity
+    public class RunningWorkFlowActivity:IDoucment
     {
         public Guid _id { get; set; }
 
@@ -19,5 +19,9 @@ namespace STEPIN.Entities
         public string Output { get; set; }
 
         public Guid AgentId { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 }

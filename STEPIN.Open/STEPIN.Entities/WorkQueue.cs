@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class WorkQueue
+    public class WorkQueue:IDoucment
     {
         public Guid _id { get; set; }
         public string QueueName { get; set; }
@@ -16,6 +16,10 @@ namespace STEPIN.Entities
         public int ProcessCycle { get; set; }
         public int SLA { get; set; }
         public List<int> UserId { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
 
     }
 }

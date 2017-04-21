@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class PythonScriptVersion
+    public class PythonScriptVersion:IDoucment
     {
         public Guid _id { get; set; }
         public Guid ActionScriptId { get; set; }
@@ -15,5 +15,10 @@ namespace STEPIN.Entities
         public string PythonScriptContent { get; set; }
         public DateTime? DateCreated { get; set; }
         public DateTime? DateUpdated { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
+
     }
 }

@@ -9,7 +9,7 @@ namespace STEPIN.Entities
     /// <summary>
     /// Describes the diagram reprentation of the workflow entity
     /// </summary>
-    public class WorkflowDefinition
+    public class WorkflowDefinition:IDoucment
     {
         public Guid _id { get; set; }
         public int WorkflowId { get; set; }
@@ -21,6 +21,10 @@ namespace STEPIN.Entities
 
         public int PublishStatus { get; set; } //0 - Draft, 1 - Published
         public object BlobUrl { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
 
     }
 }

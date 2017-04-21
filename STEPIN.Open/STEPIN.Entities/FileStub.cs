@@ -2,7 +2,7 @@
 
 namespace STEPIN.Entities
 {
-    public class FileStub
+    public class FileStub :IDoucment
     {
         /// <summary>
         /// mongo db requires Id in format _id 
@@ -16,5 +16,9 @@ namespace STEPIN.Entities
         public long SizeInBytes { get; set; }
 
         public string Hash { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 }

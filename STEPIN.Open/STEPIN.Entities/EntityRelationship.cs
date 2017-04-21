@@ -2,7 +2,7 @@
 
 namespace STEPIN.Entities
 {
-    public class EntityRelationship
+    public class EntityRelationship:IDoucment
     {
         public Guid _id { get; set; }
 
@@ -23,5 +23,9 @@ namespace STEPIN.Entities
         public int MinimumItems { get; set; }
 
         public int MaximumItems { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 }

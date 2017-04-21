@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class FormSchema
+    public class FormSchema:IDoucment
     {
         public FormSchema()
         {
@@ -18,7 +18,11 @@ namespace STEPIN.Entities
 
         public Guid FormId { get; set; }
         public List<FormFieldDefinition> FormFields { get; set; }
-        
-        
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
+
+
     }
 }

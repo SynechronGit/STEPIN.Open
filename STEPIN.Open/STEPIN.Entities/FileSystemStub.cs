@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class FileSystemStub
+    public class FileSystemStub:IDoucment
     {
         public FileSystemStub()
         {
@@ -23,5 +23,10 @@ namespace STEPIN.Entities
         public DateTime LastUpdatedOn { get; set; }
 
         public List<FileStub> Files { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
+
     }
 }

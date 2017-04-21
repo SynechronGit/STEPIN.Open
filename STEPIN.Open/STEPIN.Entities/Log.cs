@@ -5,7 +5,7 @@ using System.Text;
 
 namespace STEPIN.Entities
 {
-    public class Log
+    public class Log:IDoucment
     {
         public Guid _id { get; set; }
 
@@ -58,5 +58,9 @@ namespace STEPIN.Entities
         /// Session Log Id
         /// </summary>
         public Guid SessionLogId { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class Function
+    public class Function:IDoucment
     {
         public Function()
         {
@@ -19,6 +19,10 @@ namespace STEPIN.Entities
         public string Name { get; set; }
       
         public List<FunctionStep> Steps { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
 
     }
 

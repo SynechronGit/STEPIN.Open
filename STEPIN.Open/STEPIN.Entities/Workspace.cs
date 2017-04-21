@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class Workspace
+    public class Workspace:IDoucment
     {
 
         public Guid _id { get; set; }
@@ -21,6 +21,10 @@ namespace STEPIN.Entities
         public List<Function> Functions { get; set; }
 
         public List<Keyword> Keywords { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
 
     }
 }

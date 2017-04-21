@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class Project
+    public class Project:IDoucment
     {
         public Project()
         {
@@ -56,7 +56,9 @@ namespace STEPIN.Entities
         public string BusinessOwner { get; set; }
 
         public string TechnicalOwner { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
-
-
 }

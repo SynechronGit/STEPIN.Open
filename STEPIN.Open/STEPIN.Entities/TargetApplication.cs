@@ -6,12 +6,16 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class TargetApplication
+    public class TargetApplication:IDoucment
     {
         public Guid _id { get; set; }
 
         public string AppName { get; set; }
 
         public string AppDescription { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 }

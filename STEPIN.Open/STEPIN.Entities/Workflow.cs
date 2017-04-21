@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class Workflow
+    public class Workflow:IDoucment
     {
         public Workflow()
         {
@@ -41,6 +41,10 @@ namespace STEPIN.Entities
         public string ConditionExpression { get; set; }
 
         public decimal DollarsSaved { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
 
     }
 }

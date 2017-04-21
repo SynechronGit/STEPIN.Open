@@ -2,7 +2,7 @@
 
 namespace STEPIN.Entities
 {
-    public class EntityAttribute
+    public class EntityAttribute:IDoucment
     {
         public Guid _id { get; set; }
 
@@ -49,5 +49,9 @@ namespace STEPIN.Entities
         public Guid DisplayFormat { get; set; }
 
         public string EditorControl { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 }

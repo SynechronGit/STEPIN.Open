@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace STEPIN.Entities
 {
-    public class Action
+    public class Action:IDoucment
     {
         /// <summary>
         /// mongo db document id
@@ -93,6 +93,11 @@ namespace STEPIN.Entities
         /// Unit name
         /// </summary>
         public string UnitName { get; set; }
+
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
 
         #endregion
     }

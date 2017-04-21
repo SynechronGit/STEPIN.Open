@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class ActionScriptVersion
+    public class ActionScriptVersion:IDoucment
     {
         public Guid _id { get; set; }
         public Guid ActionScriptId { get; set; }
@@ -22,7 +22,14 @@ namespace STEPIN.Entities
         public string ProjectItemName { get; set; }
         public string UnitName { get; set; }
         public string Routine { get; set; }
-        
+        public string CreatedBy { get; set; }
+
+        public DateTime? CreatedOn { get; set; }
+
+        public string UpdatedBy { get; set; }
+
+        public DateTime? UpdatedOn { get; set; }
+
 
     }
 }

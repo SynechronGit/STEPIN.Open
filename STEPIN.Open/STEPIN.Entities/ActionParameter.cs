@@ -2,7 +2,7 @@
 
 namespace STEPIN.Entities
 {
-    public class ActionParameter
+    public class ActionParameter:IDoucment
     {
         /// <summary>
         /// mongo db document id
@@ -18,5 +18,9 @@ namespace STEPIN.Entities
         /// DataType
         /// </summary>
         public string DataType { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 }

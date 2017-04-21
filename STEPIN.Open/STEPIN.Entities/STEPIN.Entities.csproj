@@ -103,6 +103,7 @@
     <Compile Include="HumanAction.cs" />
     <Compile Include="Identity.cs" />
     <Compile Include="IdentityVersion.cs" />
+    <Compile Include="IDocument.cs" />
     <Compile Include="IFTTTApplet.cs" />
     <Compile Include="ITrigger.cs" />
     <Compile Include="Keyword.cs" />

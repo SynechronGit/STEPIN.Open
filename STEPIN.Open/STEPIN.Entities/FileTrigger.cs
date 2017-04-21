@@ -2,7 +2,7 @@
 
 namespace STEPIN.Entities
 {
-    public class FileTrigger : ITrigger
+    public class FileTrigger : ITrigger,IDoucment
     {
         public Guid _id { get; set; }
 
@@ -62,5 +62,10 @@ namespace STEPIN.Entities
         public int RefreshMinutes { set; get; }
 
         public int RefreshSeconds { set; get; }
+
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 }

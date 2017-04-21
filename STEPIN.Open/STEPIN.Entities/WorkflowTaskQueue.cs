@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class WorkflowTaskQueue
+    public class WorkflowTaskQueue:IDoucment
     {
         public Guid _id { get; set; }
         public Guid WorkflowId { get; set; }
@@ -48,6 +48,10 @@ namespace STEPIN.Entities
         /// </summary>
         public TaskType ActivityType { get; set; }
         public List<ConfigurationVariable> Variables { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
 
     }
 }

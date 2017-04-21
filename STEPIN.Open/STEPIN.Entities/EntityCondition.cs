@@ -2,7 +2,7 @@
 
 namespace STEPIN.Entities
 {
-    public class EntityCondition
+    public class EntityCondition:IDoucment
     {
         public Guid _id { get; set; }
 
@@ -17,5 +17,9 @@ namespace STEPIN.Entities
         public string ConditionExpression { get; set; }
 
         public string ConditionExpressionHash { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 }

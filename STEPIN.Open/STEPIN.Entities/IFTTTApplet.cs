@@ -3,7 +3,8 @@ using System.Collections.Generic;
 
 namespace STEPIN.Entities {
 
-    public class IFTTTApplet {
+    public class IFTTTApplet:IDoucment
+    {
 
         /// <summary>
         /// Applet Id
@@ -46,5 +47,9 @@ namespace STEPIN.Entities {
         public bool AppletOnOff { get; set; }
 
         public List<string> PromotedEnvironments { get; set; }
+        public string CreatedBy { get; set; }
+        public DateTime? CreatedOn { get; set; }
+        public string UpdatedBy { get; set; }
+        public DateTime? UpdatedOn { get; set; }
     }
 }
