@@ -14,7 +14,6 @@ namespace STEPIN.Entities
         /// Workflow Running Instance Id
         /// </summary>
         public Guid WorkflowRunningInstanceId { get; set; }
-
         /// <summary>
         /// session log id
         /// </summary>
@@ -23,5 +22,6 @@ namespace STEPIN.Entities
         public DateTime? CreatedOn { get; set; }
         public string UpdatedBy { get; set; }
         public DateTime? UpdatedOn { get; set; }
+        public Guid? blobId { get; set; }
     }
 }
