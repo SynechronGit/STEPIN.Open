@@ -10,7 +10,7 @@ namespace STEPIN.Entities
     {
         public Guid _id { get; set; }
         public Guid ActionScriptId { get; set; }
-        public string VersionLabel { get; set; }
+        public int Version { get; set; }
         public int Status { get; set; }
         public string PythonScriptContent { get; set; }
         public DateTime? DateCreated { get; set; }
