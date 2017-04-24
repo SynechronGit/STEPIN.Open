@@ -12,7 +12,7 @@ namespace STEPIN.Entities
         public string ScriptName { get; set; }
         public string ScriptDescription { get; set; }
         public int ScriptEngine { get; set; } //TC or Python
-        public string VersionLabel { get; set; }
+        public int Version { get; set; }
         public string Description { get; set; }
         public string AzureBlobUrl { get; set; }
         public DateTime? StartOn { get; set; }
