@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class CommonBlobMaster:IDoucment
+    public class CommonBlobMaster:IDocument
     {
         public Guid _id { get; set; }
 

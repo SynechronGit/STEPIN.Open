@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class FileSystemStub:IDoucment
+    public class FileSystemStub:IDocument
     {
         public FileSystemStub()
         {

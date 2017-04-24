@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class VariableAttributeMapping:IDoucment
+    public class VariableAttributeMapping:IDocument
     {
         public Guid _id { get; set; }
 

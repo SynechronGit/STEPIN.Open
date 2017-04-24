@@ -6,7 +6,7 @@ namespace STEPIN.Entities
     /// <summary>
     /// Class for Mapping Identities with Target Application
     /// </summary>
-    public class TargetApplicationIdentity : IDoucment
+    public class TargetApplicationIdentity : IDocument
     {
         /// <summary>
         /// mongo db collection _id

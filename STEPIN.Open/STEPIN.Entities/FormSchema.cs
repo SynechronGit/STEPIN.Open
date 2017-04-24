@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class FormSchema:IDoucment
+    public class FormSchema:IDocument
     {
         public FormSchema()
         {

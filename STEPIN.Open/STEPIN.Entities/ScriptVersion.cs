@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class ScriptVersion:IDoucment
+    public class ScriptVersion:IDocument
     {
         public Guid _id { get; set; }
         public Guid ActionScriptId { get; set; }

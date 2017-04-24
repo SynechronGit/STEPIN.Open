@@ -7,7 +7,7 @@ namespace STEPIN.Entities
     /// This entity stores Mapping Between ActionScript Version and Package
     /// one ActionScript Version to have one or multiple Package
     /// </summary>
-    public class ActionScriptVersionPackage:IDoucment
+    public class ActionScriptVersionPackage:IDocument
     {
         /// <summary>
         /// mongo db collection _id

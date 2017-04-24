@@ -2,7 +2,7 @@
 
 namespace STEPIN.Entities
 {
-    public class ActionParameter:IDoucment
+    public class ActionParameter:IDocument
     {
         /// <summary>
         /// mongo db document id

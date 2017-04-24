@@ -2,7 +2,7 @@
 
 namespace STEPIN.Entities
 {
-    public class EmailTrigger : ITrigger,IDoucment
+    public class EmailTrigger : ITrigger,IDocument
     {
         public Guid _id { get; set; }
 

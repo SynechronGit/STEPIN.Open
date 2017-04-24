@@ -2,7 +2,7 @@
 
 namespace STEPIN.Entities
 {
-    public class FileTrigger : ITrigger,IDoucment
+    public class FileTrigger : ITrigger,IDocument
     {
         public Guid _id { get; set; }
 

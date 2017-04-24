@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace STEPIN.Entities {
 
-    public class IFTTTApplet:IDoucment
+    public class IFTTTApplet:IDocument
     {
 
         /// <summary>

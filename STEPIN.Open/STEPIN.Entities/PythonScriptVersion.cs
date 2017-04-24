@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class PythonScriptVersion:IDoucment
+    public class PythonScriptVersion:IDocument
     {
         public Guid _id { get; set; }
         public Guid ActionScriptId { get; set; }

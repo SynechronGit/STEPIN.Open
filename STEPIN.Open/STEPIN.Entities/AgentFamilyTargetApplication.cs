@@ -10,7 +10,7 @@ namespace STEPIN.Entities
     /// This entity stores Mapping Between Agent Family and Target Application
     /// one Agent Family to have one or multiple target applications
     /// </summary>
-    public class AgentFamilyTargetApplication : IDoucment
+    public class AgentFamilyTargetApplication : IDocument
     {
 
         /// <summary>

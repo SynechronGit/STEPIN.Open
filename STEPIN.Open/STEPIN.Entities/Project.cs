@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class Project:IDoucment
+    public class Project:IDocument
     {
         public Project()
         {

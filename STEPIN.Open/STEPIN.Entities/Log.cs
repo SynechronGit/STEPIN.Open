@@ -5,7 +5,7 @@ using System.Text;
 
 namespace STEPIN.Entities
 {
-    public class Log:IDoucment
+    public class Log:IDocument
     {
         public Guid _id { get; set; }
 

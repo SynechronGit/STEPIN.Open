@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class DomainReferenceType:IDoucment
+    public class DomainReferenceType:IDocument
     {
         public Guid _id { get; set; }
 

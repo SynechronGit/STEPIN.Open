@@ -2,7 +2,7 @@
 
 namespace STEPIN.Entities
 {
-    public class EntityAttribute:IDoucment
+    public class EntityAttribute:IDocument
     {
         public Guid _id { get; set; }
 

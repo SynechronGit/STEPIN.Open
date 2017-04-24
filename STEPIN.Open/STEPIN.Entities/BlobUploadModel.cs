@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class BlobUploadModel:IDoucment
+    public class BlobUploadModel:IDocument
     {
         public Guid _id { get; set; }
         public string FileName { get; set; }

@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class ActionScriptVersion:IDoucment
+    public class ActionScriptVersion:IDocument
     {
         public Guid _id { get; set; }
         public Guid ActionScriptId { get; set; }
-        public string VersionLabel { get; set; }
+        public int Version { get; set; }
         public string Description { get; set; }
         public string AzureBlobUrl { get; set; }
         public DateTime? StartOn { get; set; }

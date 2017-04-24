@@ -2,7 +2,7 @@
 
 namespace STEPIN.Entities
 {
-    public class FileStub :IDoucment
+    public class FileStub :IDocument
     {
         /// <summary>
         /// mongo db requires Id in format _id 

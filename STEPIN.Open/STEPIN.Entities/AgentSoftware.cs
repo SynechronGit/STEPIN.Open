@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class AgentSoftware:IDoucment
+    public class AgentSoftware:IDocument
     {
         /// <summary>
         /// mongo db document _id

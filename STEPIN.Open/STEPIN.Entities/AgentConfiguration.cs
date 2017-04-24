@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class AgentConfiguration:IDoucment
+    public class AgentConfiguration:IDocument
     {
         public Guid _id { get; set; }
 

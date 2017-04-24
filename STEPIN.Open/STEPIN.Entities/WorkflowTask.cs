@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class WorkflowTask:IDoucment
+    public class WorkflowTask:IDocument
     {
         public Guid _id { get; set; }
 

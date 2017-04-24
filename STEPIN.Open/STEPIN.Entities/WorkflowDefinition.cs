@@ -9,7 +9,7 @@ namespace STEPIN.Entities
     /// <summary>
     /// Describes the diagram reprentation of the workflow entity
     /// </summary>
-    public class WorkflowDefinition:IDoucment
+    public class WorkflowDefinition:IDocument
     {
         public Guid _id { get; set; }
         public int WorkflowId { get; set; }

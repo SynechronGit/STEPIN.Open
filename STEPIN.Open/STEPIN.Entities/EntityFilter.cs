@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace STEPIN.Entities
 {
-    public class EntityFilter:IDoucment
+    public class EntityFilter:IDocument
     {
         public Guid _id { get; set; }
 

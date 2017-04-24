@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class Workflow:IDoucment
+    public class Workflow:IDocument
     {
         public Workflow()
         {

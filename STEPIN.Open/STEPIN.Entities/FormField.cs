@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace STEPIN.Entities
 {
-    public class FormField:IDoucment
+    public class FormField:IDocument
     {
         public Guid _id { get; set; }
 
