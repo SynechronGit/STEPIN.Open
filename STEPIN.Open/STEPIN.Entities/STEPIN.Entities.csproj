@@ -134,6 +134,7 @@
     <Compile Include="StepinEnum.cs" />
     <Compile Include="TargetApplication.cs" />
     <Compile Include="TargetApplicationAgent.cs" />
+    <Compile Include="TargetApplicationIdentity.cs" />
     <Compile Include="TargetApplicationVersion.cs" />
     <Compile Include="TimeTrigger.cs" />
     <Compile Include="TimeTriggerMetaData.cs" />
