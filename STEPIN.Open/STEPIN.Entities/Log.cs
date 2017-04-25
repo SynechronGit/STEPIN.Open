@@ -44,6 +44,8 @@ namespace STEPIN.Entities
         /// </summary>
         public string ImageFileName { get; set; }
 
+        public Guid? blobId { get; set; }
+
         /// <summary>
         /// To Do : verify for Log description
         /// </summary>
