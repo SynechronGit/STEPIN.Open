@@ -70,6 +70,17 @@ namespace STEPIN.Entities
         /// Enum for Return type
         /// </summary>
         public ReturnValueType ReturnValueType { get; set; }
+
+        /// <summary>
+        /// Return as collection
+        /// </summary>
+        public bool ReturnAsCollection { get; set; }
+
+        /// <summary>
+        /// Default Script Object Name 
+        /// Alphabet only, no spaces
+        /// </summary>
+        public string DefaultScriptObjectName { get; set; }
         #endregion
 
         #region TestCompleteLibrary
