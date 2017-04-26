@@ -56,7 +56,6 @@
     <Compile Include="ActionScript.cs" />
     <Compile Include="ActionScriptPackage.cs" />
     <Compile Include="ActionScriptVersion.cs" />
-    <Compile Include="ActionScriptVersionPackage.cs" />
     <Compile Include="AgentConfiguration.cs" />
     <Compile Include="AgentFamilyTargetApplication.cs" />
     <Compile Include="AgentManifest.cs" />
@@ -115,6 +114,7 @@
     <Compile Include="MapAttribute.cs" />
     <Compile Include="ObjectLookup.cs" />
     <Compile Include="Package.cs" />
+    <Compile Include="PackageTree.cs" />
     <Compile Include="PackageVersion.cs" />
     <Compile Include="Page.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
