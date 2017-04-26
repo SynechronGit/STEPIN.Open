@@ -4,11 +4,10 @@ using System.Collections.Generic;
 namespace STEPIN.Entities
 {
     /// <summary>
-    /// This entity stores Mapping Between ActionScript Version and Package
-    /// one ActionScript Version to have one or multiple Package
+    /// This entity stores Mapping Between ActionScript and Package
+    /// one ActionScript to have one or multiple Package
     /// </summary>
-    /// ToDo: Need to remove the entity.
-    public class ActionScriptVersionPackage:IDocument
+    public class ActionScriptPackage : IDocument
     {
         /// <summary>
         /// mongo db collection _id
@@ -16,9 +15,9 @@ namespace STEPIN.Entities
         public Guid _id { get; set; }
 
         /// <summary>
-        /// ActionScript Version Id
+        /// ActionScript Id
         /// </summary>
-        public Guid ActionScriptVersionId { get; set; }
+        public Guid ActionScriptId { get; set; }
 
         /// <summary>
         /// Package Id
