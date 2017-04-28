@@ -21,6 +21,11 @@ namespace STEPIN.Entities
         public Guid AgentConfigurationId { get; set; }
 
         /// <summary>
+        /// ActionScriptId
+        /// </summary>
+        public Guid ActionScriptId { get; set; }
+
+        /// <summary>
         /// Session Status: Fail/Success
         /// </summary>
         public SessionStatus SessionStatus { get; set; }
